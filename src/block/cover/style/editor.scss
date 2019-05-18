@@ -1,0 +1,39 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+.bokez-cover-subtitle.editor-rich-text__tinymce.mce-content-body,
+.bokez-cover-subtitle{
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+.bokez-cover-subtitle.editor-rich-text__tinymce.mce-content-body{
+    line-height: 1.4;
+}
+
+.bokez-cover-upload{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.editor-rich-text__tinymce.bokez-cover-button{
+    margin-top: 1.5em;
+}
+
+@media screen and ( min-width: $tablet ) {
+
+    .bokez-cover-subtitle.editor-rich-text__tinymce.mce-content-body,
+    .bokez-cover-subtitle{
+        font-size: 1.4em;
+    }
+    
+}
+
+//
+// Frontend
+// 
+@import 'style';

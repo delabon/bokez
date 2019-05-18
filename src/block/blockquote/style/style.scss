@@ -1,0 +1,33 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+blockquote.bokez-blockquote{
+	border: none;
+	padding: 1em;
+	margin: 2em 0;
+	font-size: 1.3em;
+
+	&:after, 
+	&:before{
+		display: none;
+	}
+}
+
+.bokez-blockquote cite{
+	display: block;
+	margin-top: 1em;
+	font-size: 0.8em;
+	text-transform: capitalize;
+}
+
+@media screen and ( min-width: $tablet ) {
+
+	blockquote.bokez-blockquote{
+		font-size: 1.5em;
+		margin: 2.6em 0;
+	}
+
+}

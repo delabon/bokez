@@ -1,0 +1,64 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-accordion{
+	padding: 0;
+
+	&.bokez-accordion-right .bokez-accordion-item ._item_header_bokez:after{
+		right: auto;
+		left: 0;
+	}
+}
+
+.bokez-accordion-item{
+	position: relative;
+	margin-bottom: 10px;
+
+	._item_header_bokez{
+		display: block;
+		padding: 0.7em 1em;
+		font-size: 1.2em;
+		background-color: rgb(223, 230, 233);
+		color: #010100;
+		position: relative;
+		cursor: pointer;
+
+		&:after{
+			content: '+';
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translate( 0, -50% );
+			font-size: 1em;
+			padding: 0 1em;
+			cursor: pointer;
+		}
+	}
+
+	._item_body_bokez{
+		margin: 0;
+		padding: 1.5em;
+		font-size: 1em;
+		display: none;
+	}
+
+	&._active_bokez {
+		
+		._item_body_bokez{
+			display: block;	
+		}
+		
+		._item_header_bokez:after{
+			content: '-';
+		}
+
+	}
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}

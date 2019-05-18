@@ -1,0 +1,19 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+
+.bokez-video-popup{
+	.bokez-video-popup-upload{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+}
+
+//
+// Frontend
+// 
+@import 'style';

@@ -1,0 +1,162 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-posts-grid{
+	display: flex;
+	flex-wrap: wrap;
+
+	._entry_bokez{
+		padding: 0 15px 35px;
+	
+		a{
+			text-decoration: none;
+			display: block;
+		}
+	
+		img{
+			margin: 0 auto;
+			width: auto !important;
+			height: auto !important;
+			display: block;
+			backface-visibility: hidden; /** fixes hover move issue **/
+			transition: opacity 0.3s;
+		}
+	
+		._entry_thumbnail_bokez{
+			background-color: #342D5D;
+
+			a:hover{
+				text-decoration: none !important;
+			}
+		}
+	
+		&._has_thumbnail_bokez:hover{
+			img{
+				opacity: 0.8;
+			}
+		}
+
+		._entry_content_bokez{
+			padding: 0 10px;
+			color: #2d2d2d;
+		}
+	
+		h3{
+			margin: 0;
+			padding: 10px 0;
+			font-size: 1.2em;
+			line-height: 1.4;
+			color: inherit;
+			transition: opacity 0.3s;
+	
+			a{
+				color: inherit;
+			}
+	
+			&:hover {
+				opacity: 0.8;
+	
+				a{
+					text-decoration: underline;
+				}
+			}
+		}
+	
+		._entry_meta_bokez{
+			padding-top: 10px;
+			font-size: 1em;
+			color: inherit;
+		}
+	
+	}
+
+	&[data-items="1"] ._entry_bokez,
+	&[data-items="2"] ._entry_bokez,
+	&[data-items="3"] ._entry_bokez,
+	&[data-items="4"] ._entry_bokez,
+	&[data-items="5"] ._entry_bokez{
+		flex: 0 0 100%;
+	}
+	
+}
+
+@media screen and ( min-width: $mobile ) {
+	.bokez-posts-grid{
+
+		&[data-items="2"] ._entry_bokez,
+		&[data-items="3"] ._entry_bokez,
+		&[data-items="4"] ._entry_bokez{
+			flex: 0 0 50%;
+
+			h3{
+				font-size: 1em;
+			}
+		
+			._entry_meta_bokez{
+				font-size: 0.8em;
+			}
+		}
+
+	}
+}
+
+@media screen and ( min-width: $tablet ) {
+
+	.bokez-posts-grid{
+
+		&[data-items="2"] ._entry_bokez{
+
+			h3{
+				font-size: 1.1em;
+			}
+		
+			._entry_meta_bokez{
+				font-size: 0.9em;
+			}
+		}
+
+		&[data-items="3"] ._entry_bokez{
+			flex: 0 0 50%;
+		}
+
+		&[data-items="4"] ._entry_bokez{
+			flex: 0 0 33.3332%;
+		}
+	}
+
+}
+
+@media screen and ( min-width: $desktop ) {
+
+	.bokez-posts-grid{
+
+		&[data-items="1"] ._entry_bokez{
+			flex: 0 0 100%;
+			padding: 0 0 70px;
+		}
+
+		&[data-items="2"] ._entry_bokez{
+			flex: 0 0 50%;
+		}
+
+		&[data-items="3"] ._entry_bokez{
+			flex: 0 0 33.3332%;
+		}
+
+		&[data-items="4"] ._entry_bokez{
+			flex: 0 0 25%;
+
+			h3{
+				font-size: 1em;
+			}
+		
+			._entry_meta_bokez{
+				font-size: 0.8em;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,72 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+.bokez-profile{
+	text-align: center;
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+    width: 100%;
+    max-width:100%;
+    padding: 10%;
+}
+
+.bokez-profile-avatar-wrapper{
+	flex: 0 0 128px;
+}
+
+.bokez-profile-content{
+	margin: 0 2em;
+}
+
+.bokez-profile-job{
+	display: block;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.bokez-profile-name{
+	margin: 1em 0 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.bokez-profile-text{
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.bokez-profile-avatar{
+	width: 128px;
+	height: 128px;
+	display: inline-block;
+
+	img{
+		position: relative;
+		display: inline-block;
+		-o-object-fit: cover;
+		object-fit: cover;
+		border-radius: 100%;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and ( min-width: $tablet ) {
+
+	.bokez-profile{
+		flex-direction: row;
+		text-align: start;
+	}
+
+	.bokez-profile-text{
+		font-size: 1.3em;
+	}
+
+	.bokez-profile-name{
+		font-size: 1.5em;
+	}
+}

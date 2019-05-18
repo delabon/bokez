@@ -1,0 +1,135 @@
+@import "./common.scss";
+
+// Inspector Tabs
+.components-panel__header.edit-post-sidebar-header.edit-post-sidebar__panel-tabs{
+    z-index: 10;
+}
+
+.bokez-inspect-tabs{
+    margin: 20px 0;
+    z-index: 0;
+
+    .components-tab-panel__tabs {
+        position: relative;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-wrap: 1;
+        border-bottom: 4px solid #ccc;
+        
+        button{
+            flex: 1;
+            z-index: 1;
+            position: relative;
+            padding: 5px 7px;
+            margin: 0;
+            min-height: 46px;
+            font-size: 14px;
+            background: transparent;
+            outline: none;
+            color: #010100;
+            border: none;
+            cursor: pointer;
+
+            &.bokez-active-tab{
+                background: $purple;
+                color: white;
+            }
+        }
+    }
+}
+
+// Block Form Inputs
+.bokez-block-form{
+    .editor-url-input input[type=text]{
+        border: 1px solid #e1e1e1;
+    }
+}
+
+// Controls
+._item_bokez{
+    ._item_controls_bokez{
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #010100;
+        color: white;
+        z-index: 9999;
+        padding: 0 4px;
+    
+        span{
+            display: inline-block;
+            padding: 4px;
+            cursor: pointer;
+        }
+    }
+}
+
+.bokez-add-item-wrapper{
+    margin: 20px auto;
+	text-align: center;
+}
+
+// 
+// Inspector :: Background Controls
+//
+.dlb-background-controls {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .components-base-control{
+        width: 100%;
+    }
+
+}
+
+.dlb-component-upload,
+.dlb-component-color{
+    margin-bottom: 25px;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.dlb-component-color{
+    display: flex;
+    flex-direction: column;
+
+    .__indicator__{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+
+        .__color__{
+            width: 40px;
+            height: 20px;
+            border: 2px solid #e1e1e1;
+            overflow: hidden;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+    }
+    
+}
+
+@import "../block/blockquote/style/editor.scss";
+@import "../block/button/style/editor.scss";
+@import "../block/cover/style/editor.scss";
+@import "../block/divider/style/editor.scss";
+@import "../block/faq/style/editor.scss";
+@import "../block/notification/style/editor.scss";
+@import "../block/posts-grid/style/editor.scss";
+@import "../block/pricing-table/style/editor.scss";
+@import "../block/profile/style/editor.scss";
+@import "../block/progress-bar/style/editor.scss";
+@import "../block/section/style/editor.scss";
+@import "../block/separator-heading/style/editor.scss";
+@import "../block/share/style/editor.scss";
+@import "../block/testimonial/style/editor.scss";
+@import "../block/video-popup/style/editor.scss";

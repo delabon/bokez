@@ -1,0 +1,107 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-video-popup{
+	
+	.bokez-video-wrapper {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		border: 0 !important;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		background-color: #1d1d1d;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.bokez-video-popup-play{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border: 0 !important;
+		box-shadow: none !important;
+		background: transparent !important;
+		text-decoration: none !important;
+
+		&:hover{
+			border: 0 !important;
+			box-shadow: none !important;
+			background: transparent !important;
+			text-decoration: none !important;
+		}
+
+		svg{
+			width: 64px;
+			height: 64px;
+		}
+	}
+
+	.bokez-video-popup-upload{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+}
+
+#bokez-video-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+	z-index: 999999;
+	
+	.bokez-video-modal-content{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 85%;
+		transform: translate(-50%,-50%);
+	}
+
+	.bokez-video-modal-wrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 25px;
+		height: 0;
+
+		iframe{
+			position: absolute !important;
+			top: 0 !important;
+			left: 0 !important;
+			width: 100% !important;
+			height: 100% !important;
+			border: 0px !important;
+		}
+	}
+
+	.bokez-video-modal-close{
+		position: absolute;
+		top: 30px;
+		right: 15px;
+		height: 32px;
+		width: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		font-size: 2em;
+		background: transparent;
+		border: 0;
+		color: white;
+		outline: 0;
+	}
+}

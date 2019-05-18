@@ -1,0 +1,19 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.bokez-divider{
+	padding: 1em 0;
+	width: 100%;
+	text-align: center;
+
+	span{
+		overflow: hidden;
+		height: 0.5px;
+		width: 50%;
+		border: 1px solid #f1f1f1;
+		display: inline-block;
+	}
+}

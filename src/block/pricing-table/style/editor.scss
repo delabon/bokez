@@ -1,0 +1,20 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+
+//
+// Frontend
+// 
+@import 'style';
+
+
+.bokez-pricing-table{
+
+    ._item_bokez{
+        padding: 0;
+    }
+
+}

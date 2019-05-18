@@ -1,0 +1,19 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+
+.bokez-button{
+	.editor-rich-text{
+		&,div{
+			display: inline;
+		}
+	}
+}
+
+//
+// Frontend
+// 
+@import 'style';

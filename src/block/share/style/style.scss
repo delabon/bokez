@@ -1,0 +1,74 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-share{
+	padding: 1em 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+
+	a{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex: 0 0 48px;
+		width: 48px;
+		height: 48px;
+		position: relative;
+		text-decoration: none;
+		background-color: #E8E8E8;
+		border: none;
+		outline: none;
+		color: #777;
+		fill: #777;
+		margin: 0 4px 8px;
+		transition: all 0.3s;
+
+		&:hover{
+			opacity: 0.8;
+
+			span{
+				opacity: 1;
+				visibility: visible;
+				transform: translate( -50%, -32px );
+			}
+		}
+
+		span{
+			line-height: 1;
+			font-size: 14px;
+			padding: 0.5em 0.7em;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translate( -50%, -20px );
+			transition: all 0.35s;
+			display: inline-block;
+			background: #010101;
+			color: #ddd;
+			border-radius: 2px;
+			white-space: nowrap;
+
+			&:after{
+				content: '';
+				position: absolute;
+				left: 50%;
+				top: 100%;
+				transform: translate( -50%, 0 );
+				width: 0;
+				height: 0;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 6px solid #010101;
+				clear: both;
+			}	
+		}
+	}
+
+}

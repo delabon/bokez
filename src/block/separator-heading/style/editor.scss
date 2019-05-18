@@ -1,0 +1,19 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+
+.bokez-separator-heading-wrapper{
+
+	.editor-rich-text{
+		width: auto;
+		flex: 1 0 auto;
+	}
+}
+
+//
+// Frontend
+// 
+@import 'style';

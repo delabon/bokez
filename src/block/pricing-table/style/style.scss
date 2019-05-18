@@ -1,0 +1,124 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 100%;
+
+    ._item_bokez{
+        position: relative;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    ._item_avatar_wrapper_bokez{
+        margin-bottom: 30px;
+    }
+
+    ._item_header_bokez{
+        color: #888;
+        font-weight: 600;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        padding: 2em 0;
+    }
+
+    ._item_features_bokez{
+        margin: 0 0 50px;
+        padding: 0;
+        list-style: none;
+
+        li{
+            list-style: none;
+            border-top: 1px solid #e1f1ff;
+            font-size: 0.9em;
+            line-height: 1.5;
+            padding: 15px 0;
+
+            &:last-child{
+                border-bottom: 1px solid #e1f1ff;
+            }
+        }
+    }
+
+    ._item_price_bokez{
+        color: #016FF9;
+        display: block;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    a._item_button_bokez{
+        border: 1px solid #9dd1ff;
+        border-radius: 10px;
+        color: #348EFE;
+        display: inline-block;
+        margin: 25px 0;
+        padding: 15px 35px;
+        text-decoration: none !important;
+        transition: all 150ms ease-in-out;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #348EFE;
+            color: white;
+        }
+    }
+}
+
+
+// Breakpoints
+
+@media screen and ( min-width: $tablet ) {
+
+    .bokez-pricing-table{
+
+        &[data-items="2"] ._item_bokez{
+            flex: 0 0 50%;
+            margin-bottom: 0;
+        }
+
+        &[data-items="3"] ._item_bokez,
+        &[data-items="4"] ._item_bokez{
+            flex: 0 0 50%;
+            margin-bottom: 40px;
+        }
+    }
+
+}
+
+@media screen and ( min-width: $desktop ) {
+
+    .bokez-pricing-table{
+
+        &[data-items="3"] ._item_bokez{
+            flex: 0 0 33.3332%;
+            margin-bottom: 0;
+        }
+
+        &[data-items="4"] ._item_bokez{
+            flex: 0 0 33.3332%;
+        }
+    }
+
+}
+
+@media screen and ( min-width: $widescreen ) {
+
+    .bokez-pricing-table{
+
+        &[data-items="4"] ._item_bokez{
+            flex: 0 0 25%;
+        }
+    }
+
+}

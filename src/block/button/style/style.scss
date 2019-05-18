@@ -1,0 +1,55 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-button{
+	padding: 1em 0;
+	margin: 0.5em 0;
+	text-align: center;
+
+	a{
+		padding: 1em 1.7em;
+		text-decoration: none;
+		font-size: 1em;
+		background-color: #FFEAA7;
+		color: #2d3436;
+		border: none;
+		outline: none;
+		box-shadow: 0 0 8px 1px rgba( 0,0,0,0.08);
+		transition: all 0.3s;
+		display: inline-block;
+		text-decoration: none !important;
+
+		&:hover{
+			opacity: 0.7;
+			text-decoration: none !important;
+		}
+
+		&.bokez-button-size-small{
+			font-size: 0.8em;	
+		}
+
+		&.bokez-button-size-medium{
+			font-size: 1.2em;	
+		}
+
+		&.bokez-button-size-large{
+			font-size: 1.4em;	
+		}
+
+		&.bokez-button-type-calltoaction:hover{
+			letter-spacing: 0.35em;
+		}
+
+		&.bokez-button-type-rounded{
+			border-radius: 2em;
+		}
+
+	}
+}
+
+.entry-content .bokez-button a{
+	border: none;
+}

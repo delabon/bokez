@@ -1,0 +1,55 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-notification{
+	padding: 1.3em 1.5em;
+	margin: 0;
+	position: relative;
+	display: none;
+	
+	p{
+		margin: 0;
+	}
+}
+
+.bokez-notification-close{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bokez-notification-info{
+	background-color: rgb(116, 185, 255);
+	color: white;
+}
+
+.bokez-notification-error{
+	background-color: rgb(214, 48, 49);
+	color: white;
+}
+
+.bokez-notification-warning{
+	background-color: rgb(255, 234, 167);
+	color: black;
+}
+
+.bokez-notification-success{
+	background-color: rgb(0, 184, 148);
+	color: white;
+}
+
+.bokez-notification-warning svg{
+	fill: black;
+}
+
+.bokez-notification-success svg,
+.bokez-notification-error svg,
+.bokez-notification-info svg{
+	fill: white;
+}

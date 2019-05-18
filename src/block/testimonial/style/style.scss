@@ -1,0 +1,136 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-testimonials{	
+    width: 100%;
+    max-width:100%;
+    margin: 0 0 1.5em;
+	padding: 10%;
+	text-align: center;
+	position: relative;
+	color: #010101;
+
+	// arrows
+	._arrow_right_bokez,
+	._arrow_left_bokez{
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		transform: translate( 0, -50% );
+		display: inline-block;
+		cursor: pointer;
+
+		svg{
+			height: 32px;
+			width: 32px;
+		}
+	}
+
+	._arrow_right_bokez{
+		left: auto;
+		right: 10px;
+	}
+
+	// points
+	._points_bokez{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		margin-top: 20px;
+
+		span{
+			flex: 0 0 16px;
+			height: 16px;
+			margin: 0 2px;
+			border-radius: 100%;
+			background-color: #010101;
+			cursor: pointer;
+			opacity: 0.6;
+
+			&._current_point_bokez{
+				opacity: 1;
+			}
+		}
+	}
+
+	// items
+	._item_bokez{
+		display: none;
+		color: inherit;
+
+		&._item_current_bokez{
+			display: block;
+		}
+	}
+	
+	._item_avatar_bokez{
+		width: 128px;
+		height: 128px;
+		display: inline-block;
+	
+		img{
+			position: relative;
+			display: inline-block;
+			-o-object-fit: cover;
+			object-fit: cover;
+			border-radius: 100%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	._item_name_bokez{
+		font-size: 1.6em;
+		font-weight: bold;
+		margin: 0;
+		margin-top: 1em;
+		margin-bottom: 0.2em;
+		color: inherit;
+	}
+
+	._item_job_bokez{
+		display: block;
+		font-size: 1em;
+		margin-bottom: 2em;
+		color: inherit;
+	}
+
+	._item_message_bokez{
+		font-size: 1.1em;
+		color: inherit;
+
+		a{
+			color: inherit;
+			text-decoration: underline;
+
+			&:hover{
+				color: inherit;
+				opacity: 0.8;
+			}
+		}
+	}
+
+}
+
+@media screen and ( min-width: $tablet ) {
+
+	.bokez-testimonials{	
+
+		._item_name_bokez{
+			font-size: 1.8em;
+		}
+
+		._item_job_bokez{
+			font-size: 1em;
+		}
+
+		._item_message_bokez{
+			font-size: 1.3em;
+		}
+	
+	}
+	
+}

@@ -1,0 +1,36 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+**/
+
+.bokez-accordion-item-add-wrapper{
+	text-align: center;
+}
+
+.bokez-accordion-item{
+
+	._item_controls_bokez{
+		display: inline-block;
+		position: absolute;
+		top: -20px;
+		left: -10px;
+		background-color: #010100;
+		color: white;
+		z-index: 9999;
+		padding: 0 4px;
+
+		span{
+			display: inline-block;
+			padding: 4px;
+			cursor: pointer;
+		}
+	}
+
+}
+
+// 
+// Frontend
+// 
+@import 'style';

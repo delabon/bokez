@@ -1,0 +1,73 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+**/
+
+.bokez-cover{
+	position: relative;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    max-width:100%;
+    margin: 0 0 1.5em;
+    align-items: center;
+    padding: 16% 10%;
+}
+
+// fixes any override by themes or plugins
+.bokez-cover .bokez-cover-button{
+    display: inline-block;
+    margin-top: 1.5em;
+    text-decoration: none;
+    padding: 0.4em 1em;
+    font-size: 1em;
+    outline: none;
+    background-color: #010101;
+    color: white;
+    border: none;
+	cursor: pointer;
+    display: inline-block;
+    text-decoration: none !important;
+
+    &:hover{
+        opacity: 0.8;
+        text-decoration: none;
+    }
+}
+
+.bokez-cover-title,
+.bokez-cover-subtitle{
+    width: 100%;
+    color: #010101;
+    padding: 0;
+    margin: 0;
+}
+
+.bokez-cover-title{
+    font-size: 2em;
+
+    &:before, 
+    &:after{
+        display: none;
+    }
+}
+
+.bokez-cover-subtitle{
+    margin-top: 0.5em;
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+
+@media screen and ( min-width: $tablet ) {
+
+    .bokez-cover-title{
+        font-size: 2.5em;
+    }
+
+    .bokez-cover-subtitle{
+        font-size: 1.4em;
+    }
+    
+}
