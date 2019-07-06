@@ -3,31 +3,31 @@ import './stylesheets/style.scss';
 import './stylesheets/editor.scss';
 
 /** Blocks */
-import './block/blockquote';
-import './block/button';
-import './block/cover';
-import './block/divider';
-import './block/notification';
-import './block/separator-heading';
-import './block/progress-bar';
-import './block/share';
+import './blocks/blockquote';
+import './blocks/button';
+import './blocks/cover';
+import './blocks/divider';
+import './blocks/notification';
+import './blocks/separator-heading';
+import './blocks/progress-bar';
+import './blocks/share';
 
 // /** since 1.0.1 */
-import './block/profile';
-import './block/posts-grid';
+import './blocks/profile';
+import './blocks/posts-grid';
 
 // /** since 1.2.0 */
-import './block/faq';
+import './blocks/faq';
 
 // /** since 1.3.0 */
-import './block/testimonial';
+import './blocks/testimonial';
 
 // /** since 1.4.0 */
-import './block/pricing-table';
+import './blocks/pricing-table';
 
 // /** since 1.5.0 */
-import './block/video-popup';
+import './blocks/video-popup';
 
 // /** since 2.0.0 */
-import './block/section';
-import './block/column';
+import './blocks/section';
+import './blocks/column';

@@ -1,8 +1,8 @@
 === Bokez | Best Gutenberg Blocks - Wordpress Page Builder ===
 Requires at least: 5.0
-Tested up to: 5.1
+Tested up to: 5.2
 Requires PHP: 5.4
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: posts grid block, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
@@ -71,6 +71,11 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 8. Accordion / FAQ Editor
 
 == Changelog ==
+
+= 2.1.0 =
+* Added padding top/bottom and margin top/bottom options to each column.
+* Added .po language file
+* Code improvements
 
 = 2.0.0 ( New Section Block And More... ) = 
 

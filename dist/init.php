@@ -14,22 +14,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Load Blocks
-require_once __DIR__ . '/../src/block/blockquote/index.php';
-require_once __DIR__ . '/../src/block/button/index.php';
-require_once __DIR__ . '/../src/block/cover/index.php';
-require_once __DIR__ . '/../src/block/divider/index.php';
-require_once __DIR__ . '/../src/block/faq/index.php';
-require_once __DIR__ . '/../src/block/notification/index.php';
-require_once __DIR__ . '/../src/block/posts-grid/index.php';
-require_once __DIR__ . '/../src/block/pricing-table/index.php';
-require_once __DIR__ . '/../src/block/profile/index.php';
-require_once __DIR__ . '/../src/block/progress-bar/index.php';
-require_once __DIR__ . '/../src/block/separator-heading/index.php';
-require_once __DIR__ . '/../src/block/share/index.php';
-require_once __DIR__ . '/../src/block/testimonial/index.php';
-require_once __DIR__ . '/../src/block/video-popup/index.php';
-require_once __DIR__ . '/../src/block/section/index.php';
-require_once __DIR__ . '/../src/block/column/index.php';
+require_once __DIR__ . '/../src/blocks/blockquote/index.php';
+require_once __DIR__ . '/../src/blocks/button/index.php';
+require_once __DIR__ . '/../src/blocks/cover/index.php';
+require_once __DIR__ . '/../src/blocks/divider/index.php';
+require_once __DIR__ . '/../src/blocks/faq/index.php';
+require_once __DIR__ . '/../src/blocks/notification/index.php';
+require_once __DIR__ . '/../src/blocks/posts-grid/index.php';
+require_once __DIR__ . '/../src/blocks/pricing-table/index.php';
+require_once __DIR__ . '/../src/blocks/profile/index.php';
+require_once __DIR__ . '/../src/blocks/progress-bar/index.php';
+require_once __DIR__ . '/../src/blocks/separator-heading/index.php';
+require_once __DIR__ . '/../src/blocks/share/index.php';
+require_once __DIR__ . '/../src/blocks/testimonial/index.php';
+require_once __DIR__ . '/../src/blocks/video-popup/index.php';
+require_once __DIR__ . '/../src/blocks/section/index.php';
+require_once __DIR__ . '/../src/blocks/column/index.php';
 
 
 /**

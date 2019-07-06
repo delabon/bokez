@@ -1,0 +1,1009 @@
+# Copyright (C) 2019 Sabri Taieb
+# This file is distributed under the same license as the Bokez - Page Builder ( Gutenberg Blocks ) plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bokez - Page Builder ( Gutenberg Blocks ) 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bokez\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-06T08:10:23+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: bokez\n"
+
+#. Plugin Name of the plugin
+msgid "Bokez - Page Builder ( Gutenberg Blocks )"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/bokez-awesome-gutenberg-blocks/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A beautiful and customizable collection of gutenberg blocks, to build professional website with ease."
+msgstr ""
+
+#. Author of the plugin
+msgid "Sabri Taieb"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://delabon.com/"
+msgstr ""
+
+#: dist/panel/view.php:105
+msgid "Max Width"
+msgstr ""
+
+#: dist/panel/view.php:111
+msgid "If you do not know what you are doing, please leave it 100%"
+msgstr ""
+
+#: dist/panel/view.php:120
+msgid "Save"
+msgstr ""
+
+#: src/blocks/share/index.php:103
+msgid "Share on Facebook"
+msgstr ""
+
+#: src/blocks/share/index.php:104
+msgid "Share on Twitter"
+msgstr ""
+
+#: src/blocks/share/index.php:105
+msgid "Share on Google Plus"
+msgstr ""
+
+#: src/blocks/share/index.php:106
+msgid "Share on Reddit"
+msgstr ""
+
+#: src/blocks/share/index.php:107
+msgid "Share on Linkedin"
+msgstr ""
+
+#: src/blocks/share/index.php:108
+msgid "Share by Email"
+msgstr ""
+
+#: src/global.js:6
+msgid "Small"
+msgstr ""
+
+#: src/global.js:7
+msgid "Default"
+msgstr ""
+
+#: src/global.js:8
+msgid "Medium"
+msgstr ""
+
+#: src/global.js:9
+msgid "Large"
+msgstr ""
+
+#: src/global.js:13
+msgid "Flat"
+msgstr ""
+
+#: src/global.js:14
+msgid "Rounded"
+msgstr ""
+
+#: src/global.js:15
+msgid "Call To Action"
+msgstr ""
+
+#: src/global.js:19
+msgid "Solid"
+msgstr ""
+
+#: src/global.js:20
+msgid "Dashed"
+msgstr ""
+
+#: src/global.js:21
+msgid "Dotted"
+msgstr ""
+
+#: src/global.js:22
+msgid "Double"
+msgstr ""
+
+#: src/global.js:23
+msgid "Ridge"
+msgstr ""
+
+#: src/global.js:27
+msgid "Left"
+msgstr ""
+
+#: src/global.js:28
+msgid "Right"
+msgstr ""
+
+#: src/global.js:29
+msgid "Top"
+msgstr ""
+
+#: src/global.js:30
+msgid "Bottom"
+msgstr ""
+
+#: src/global.js:34
+msgid "Info"
+msgstr ""
+
+#: src/global.js:35
+msgid "Error"
+msgstr ""
+
+#: src/global.js:36
+msgid "Success"
+msgstr ""
+
+#: src/global.js:37
+msgid "Warning"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:50
+#: src/components/background-control/index.js:50
+msgid "Choose orientation"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:53
+#: src/components/background-control/index.js:53
+msgid "Bottom Left to Top Right"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:54
+#: src/components/background-control/index.js:54
+msgid "Left to Right"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:55
+#: src/components/background-control/index.js:55
+msgid "Top Left to Bottom Right"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:56
+#: src/components/background-control/index.js:56
+msgid "Top to Bottom"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:57
+#: src/components/background-control/index.js:57
+msgid "Top Right to Bottom Left"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:58
+#: src/components/background-control/index.js:58
+msgid "Right to Left"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:59
+#: src/components/background-control/index.js:59
+msgid "Bottom Right to Top Left"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:60
+#: src/components/background-control/index.js:60
+msgid "Bottom to Top"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:66
+#: src/components/background-control/index.js:66
+msgid "From"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:72
+#: src/components/background-control/index.js:72
+msgid "To"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:104
+#: src/components/background-overlay-control/index.js:120
+#: src/components/background-control/index.js:196
+#: src/components/background-control/index.js:217
+#: src/blocks/button/edit.js:89
+#: src/blocks/divider/edit.js:82
+#: src/blocks/divider/edit.js:88
+msgid "Color"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:109
+#: src/components/background-control/index.js:201
+msgid "Gradient"
+msgstr ""
+
+#: src/components/background-overlay-control/index.js:120
+#: src/components/background-control/index.js:217
+msgid "Fallback Color"
+msgstr ""
+
+#: src/components/background-control/index.js:103
+msgid "Select Image"
+msgstr ""
+
+#: src/components/background-control/index.js:110
+msgid "Remove Image"
+msgstr ""
+
+#: src/components/background-control/index.js:120
+msgid "Image Size"
+msgstr ""
+
+#: src/components/background-control/index.js:123
+msgid "Cover"
+msgstr ""
+
+#: src/components/background-control/index.js:124
+msgid "Contain"
+msgstr ""
+
+#: src/components/background-control/index.js:125
+msgid "Auto"
+msgstr ""
+
+#: src/components/background-control/index.js:131
+msgid "Image Position"
+msgstr ""
+
+#: src/components/background-control/index.js:134
+msgid "Center Center"
+msgstr ""
+
+#: src/components/background-control/index.js:135
+msgid "Center Top"
+msgstr ""
+
+#: src/components/background-control/index.js:136
+msgid "Center Bottom"
+msgstr ""
+
+#: src/components/background-control/index.js:137
+msgid "Left Top"
+msgstr ""
+
+#: src/components/background-control/index.js:138
+msgid "Left Center"
+msgstr ""
+
+#: src/components/background-control/index.js:139
+msgid "Left Bottom"
+msgstr ""
+
+#: src/components/background-control/index.js:140
+msgid "Right Top"
+msgstr ""
+
+#: src/components/background-control/index.js:141
+msgid "Right Center"
+msgstr ""
+
+#: src/components/background-control/index.js:142
+msgid "Right Bottom"
+msgstr ""
+
+#: src/components/background-control/index.js:148
+msgid "Image Repeat"
+msgstr ""
+
+#: src/components/background-control/index.js:151
+msgid "No Repeat"
+msgstr ""
+
+#: src/components/background-control/index.js:152
+msgid "Repeat"
+msgstr ""
+
+#: src/components/background-control/index.js:153
+msgid "Repeat-x"
+msgstr ""
+
+#: src/components/background-control/index.js:154
+msgid "Repeat-y"
+msgstr ""
+
+#: src/components/background-control/index.js:160
+msgid "Image Attachment"
+msgstr ""
+
+#: src/components/background-control/index.js:163
+msgid "Fixed"
+msgstr ""
+
+#: src/components/background-control/index.js:164
+msgid "Scroll"
+msgstr ""
+
+#: src/components/background-control/index.js:206
+msgid "Image"
+msgstr ""
+
+#: src/blocks/blockquote/edit.js:66
+msgid "Border Position"
+msgstr ""
+
+#: src/blocks/blockquote/edit.js:75
+msgid "Border Size"
+msgstr ""
+
+#: src/blocks/blockquote/edit.js:84
+#: src/blocks/blockquote/edit.js:90
+#: src/blocks/separator-heading/edit.js:72
+#: src/blocks/separator-heading/edit.js:78
+msgid "Border Color"
+msgstr ""
+
+#: src/blocks/blockquote/edit.js:96
+#: src/blocks/blockquote/edit.js:102
+#: src/blocks/cover/edit.js:191
+#: src/blocks/cover/edit.js:197
+#: src/blocks/cover/edit.js:209
+#: src/blocks/cover/edit.js:221
+#: src/blocks/cover/edit.js:233
+#: src/blocks/posts-grid/index.js:185
+#: src/blocks/posts-grid/index.js:191
+#: src/blocks/video-popup/edit.js:120
+#: src/blocks/video-popup/edit.js:126
+#: src/blocks/button/edit.js:77
+#: src/blocks/button/edit.js:83
+#: src/blocks/button/edit.js:95
+#: src/blocks/pricing-table/edit.js:146
+#: src/blocks/pricing-table/edit.js:152
+#: src/blocks/notification/edit.js:86
+#: src/blocks/notification/edit.js:92
+#: src/blocks/profile/edit.js:79
+#: src/blocks/profile/edit.js:85
+#: src/blocks/share/edit.js:202
+#: src/blocks/share/edit.js:208
+#: src/blocks/progress-bar/edit.js:51
+#: src/blocks/progress-bar/edit.js:57
+#: src/blocks/testimonial/edit.js:436
+#: src/blocks/testimonial/edit.js:442
+msgid "Background Color"
+msgstr ""
+
+#: src/blocks/blockquote/edit.js:108
+#: src/blocks/blockquote/edit.js:114
+#: src/blocks/cover/edit.js:203
+#: src/blocks/posts-grid/index.js:197
+#: src/blocks/posts-grid/index.js:203
+#: src/blocks/notification/edit.js:98
+#: src/blocks/notification/edit.js:104
+#: src/blocks/section/edit.js:618
+#: src/blocks/profile/edit.js:91
+#: src/blocks/profile/edit.js:97
+#: src/blocks/separator-heading/edit.js:84
+#: src/blocks/separator-heading/edit.js:90
+#: src/blocks/testimonial/edit.js:449
+#: src/blocks/testimonial/edit.js:455
+msgid "Text Color"
+msgstr ""
+
+#: src/blocks/blockquote/index.js:10
+msgid "Blockquote"
+msgstr ""
+
+#: src/blocks/blockquote/index.js:12
+msgid "Add quoted text"
+msgstr ""
+
+#: src/blocks/blockquote/index.js:14
+msgid "blockquote"
+msgstr ""
+
+#: src/blocks/blockquote/index.js:14
+msgid "quote"
+msgstr ""
+
+#: src/blocks/blockquote/index.js:14
+msgid "block"
+msgstr ""
+
+#: src/blocks/cover/edit.js:78
+#: src/blocks/video-popup/edit.js:170
+msgid "Upload Image"
+msgstr ""
+
+#: src/blocks/cover/edit.js:161
+#: src/blocks/video-popup/edit.js:101
+#: src/blocks/profile/edit.js:60
+msgid "Edit image"
+msgstr ""
+
+#: src/blocks/cover/edit.js:179
+msgid "Show Hero"
+msgstr ""
+
+#: src/blocks/cover/edit.js:185
+msgid "Show Button"
+msgstr ""
+
+#: src/blocks/cover/edit.js:215
+msgid "Button Background Color"
+msgstr ""
+
+#: src/blocks/cover/edit.js:227
+msgid "Button Text Color"
+msgstr ""
+
+#: src/blocks/cover/index.js:11
+msgid "Cover One"
+msgstr ""
+
+#: src/blocks/cover/index.js:13
+msgid "Call to action or Cover ? We got you covered..."
+msgstr ""
+
+#: src/blocks/cover/index.js:15
+msgid "call to action"
+msgstr ""
+
+#: src/blocks/cover/index.js:15
+msgid "cover"
+msgstr ""
+
+#: src/blocks/cover/index.js:15
+msgid "header"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:22
+msgid "Posts Grid"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:24
+msgid "Add beautiful posts grid."
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:26
+msgid "post"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:26
+msgid "grid"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:26
+msgid "posts"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:156
+msgid "Category"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:165
+msgid "Number of Posts"
+msgstr ""
+
+#: src/blocks/posts-grid/index.js:176
+msgid "Columns"
+msgstr ""
+
+#: src/blocks/faq/edit.js:173
+#: src/blocks/faq/edit.js:179
+msgid "Header Background Color"
+msgstr ""
+
+#: src/blocks/faq/edit.js:185
+#: src/blocks/faq/edit.js:191
+msgid "Header Text Color"
+msgstr ""
+
+#: src/blocks/faq/edit.js:197
+#: src/blocks/faq/edit.js:203
+msgid "Body Background Color"
+msgstr ""
+
+#: src/blocks/faq/edit.js:209
+#: src/blocks/faq/edit.js:215
+msgid "Body Text Color"
+msgstr ""
+
+#: src/blocks/faq/edit.js:234
+#: src/blocks/testimonial/edit.js:514
+msgid "Add Item"
+msgstr ""
+
+#: src/blocks/faq/index.js:14
+msgid "FAQ / Accordion"
+msgstr ""
+
+#: src/blocks/faq/index.js:16
+msgid "Easily create an accordion for your post / page."
+msgstr ""
+
+#: src/blocks/faq/index.js:18
+msgid "accordion"
+msgstr ""
+
+#: src/blocks/faq/index.js:18
+msgid "list"
+msgstr ""
+
+#: src/blocks/faq/index.js:18
+msgid "faq"
+msgstr ""
+
+#: src/blocks/video-popup/edit.js:133
+#: src/blocks/video-popup/edit.js:139
+msgid "Play Button Color"
+msgstr ""
+
+#: src/blocks/video-popup/edit.js:185
+msgid "youtube or vimeo"
+msgstr ""
+
+#: src/blocks/video-popup/index.js:10
+msgid "Video Popup"
+msgstr ""
+
+#: src/blocks/video-popup/index.js:12
+msgid "Video popup block. use youtube or vimeo videos"
+msgstr ""
+
+#: src/blocks/video-popup/index.js:14
+msgid "video"
+msgstr ""
+
+#: src/blocks/video-popup/index.js:14
+msgid "popup"
+msgstr ""
+
+#: src/blocks/button/edit.js:59
+msgid "Size"
+msgstr ""
+
+#: src/blocks/button/edit.js:68
+msgid "Style"
+msgstr ""
+
+#: src/blocks/button/index.js:10
+msgid "Button"
+msgstr ""
+
+#: src/blocks/button/index.js:12
+msgid "Subscribe, buy, or read more? Add one now."
+msgstr ""
+
+#: src/blocks/button/index.js:14
+msgid "button"
+msgstr ""
+
+#: src/blocks/button/index.js:14
+msgid "link"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:159
+#: src/blocks/pricing-table/edit.js:165
+msgid "Title Color"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:171
+#: src/blocks/pricing-table/edit.js:177
+msgid "Features Color"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:184
+#: src/blocks/pricing-table/edit.js:190
+msgid "Price Color"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:196
+#: src/blocks/pricing-table/edit.js:202
+msgid "Button Color"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:208
+#: src/blocks/pricing-table/edit.js:214
+msgid "Button Background Color ( Hover )"
+msgstr ""
+
+#: src/blocks/pricing-table/edit.js:221
+#: src/blocks/pricing-table/edit.js:227
+msgid "Button Color ( Hover)"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:10
+msgid "Pricing Table"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:12
+msgid "Add Pricing Boxes."
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:14
+msgid "price"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:14
+msgid "table"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:14
+msgid "tag"
+msgstr ""
+
+#: src/blocks/notification/edit.js:71
+msgid "Notification Type"
+msgstr ""
+
+#: src/blocks/notification/edit.js:80
+msgid "Dismissible"
+msgstr ""
+
+#: src/blocks/notification/index.js:10
+msgid "Notification"
+msgstr ""
+
+#: src/blocks/notification/index.js:12
+msgid "Add beautiful notice for your visitors."
+msgstr ""
+
+#: src/blocks/notification/index.js:14
+msgid "alert"
+msgstr ""
+
+#: src/blocks/notification/index.js:14
+msgid "notification"
+msgstr ""
+
+#: src/blocks/notification/index.js:14
+msgid "error"
+msgstr ""
+
+#: src/blocks/divider/edit.js:55
+#: src/blocks/separator-heading/edit.js:45
+msgid "Type"
+msgstr ""
+
+#: src/blocks/divider/edit.js:64
+msgid "Height"
+msgstr ""
+
+#: src/blocks/divider/edit.js:73
+#: src/blocks/separator-heading/edit.js:54
+msgid "Width"
+msgstr ""
+
+#: src/blocks/divider/index.js:10
+msgid "Divider"
+msgstr ""
+
+#: src/blocks/divider/index.js:12
+msgid "Insert a horizontal line where you want to create a break between ideas."
+msgstr ""
+
+#: src/blocks/divider/index.js:14
+#: src/blocks/separator-heading/index.js:15
+msgid "divider"
+msgstr ""
+
+#: src/blocks/divider/index.js:14
+#: src/blocks/separator-heading/index.js:15
+msgid "separator"
+msgstr ""
+
+#: src/blocks/section/edit.js:44
+msgid "One: 100"
+msgstr ""
+
+#: src/blocks/section/edit.js:52
+msgid "Two: 50/50"
+msgstr ""
+
+#: src/blocks/section/edit.js:60
+msgid "Two: 66/33"
+msgstr ""
+
+#: src/blocks/section/edit.js:68
+msgid "Two: 33/66"
+msgstr ""
+
+#: src/blocks/section/edit.js:76
+msgid "Three: 33/33/33"
+msgstr ""
+
+#: src/blocks/section/edit.js:84
+msgid "Three: 50/25/25"
+msgstr ""
+
+#: src/blocks/section/edit.js:92
+msgid "Three: 25/25/50"
+msgstr ""
+
+#: src/blocks/section/edit.js:100
+msgid "Three: 25/50/25"
+msgstr ""
+
+#: src/blocks/section/edit.js:107
+msgid "Four: 25/25/25/25"
+msgstr ""
+
+#: src/blocks/section/edit.js:115
+msgid "Four: 40/20/20/20"
+msgstr ""
+
+#: src/blocks/section/edit.js:123
+msgid "Four: 20/20/20/40"
+msgstr ""
+
+#: src/blocks/section/edit.js:131
+msgid "Five Columns"
+msgstr ""
+
+#: src/blocks/section/edit.js:297
+msgid "Column Layout"
+msgstr ""
+
+#: src/blocks/section/edit.js:463
+msgid "Desktop"
+msgstr ""
+
+#: src/blocks/section/edit.js:468
+msgid "Tablet"
+msgstr ""
+
+#: src/blocks/section/edit.js:473
+msgid "Mobile"
+msgstr ""
+
+#: src/blocks/section/edit.js:494
+msgid "Column Gutter"
+msgstr ""
+
+#: src/blocks/section/edit.js:497
+msgid "60px"
+msgstr ""
+
+#: src/blocks/section/edit.js:498
+msgid "50px"
+msgstr ""
+
+#: src/blocks/section/edit.js:499
+msgid "40px"
+msgstr ""
+
+#: src/blocks/section/edit.js:500
+msgid "30px"
+msgstr ""
+
+#: src/blocks/section/edit.js:501
+msgid "20px"
+msgstr ""
+
+#: src/blocks/section/edit.js:502
+msgid "10px"
+msgstr ""
+
+#: src/blocks/section/edit.js:503
+msgid "0"
+msgstr ""
+
+#: src/blocks/section/edit.js:510
+#: src/blocks/column/index.js:49
+msgid "Padding / Margin"
+msgstr ""
+
+#: src/blocks/section/edit.js:515
+#: src/blocks/column/index.js:54
+msgid "Padding Top"
+msgstr ""
+
+#: src/blocks/section/edit.js:525
+#: src/blocks/column/index.js:62
+msgid "Padding Bottom"
+msgstr ""
+
+#: src/blocks/section/edit.js:535
+#: src/blocks/column/index.js:70
+msgid "Margin Top"
+msgstr ""
+
+#: src/blocks/section/edit.js:545
+#: src/blocks/column/index.js:78
+msgid "Margin Bottom"
+msgstr ""
+
+#: src/blocks/section/edit.js:558
+msgid "Background Settings"
+msgstr ""
+
+#: src/blocks/section/edit.js:613
+msgid "Text Settings"
+msgstr ""
+
+#: src/blocks/section/edit.js:624
+msgid "Link Color"
+msgstr ""
+
+#: src/blocks/section/edit.js:630
+msgid "Link Color (Hover)"
+msgstr ""
+
+#: src/blocks/section/index.js:11
+msgid "Section / Row Layout"
+msgstr ""
+
+#: src/blocks/section/index.js:13
+msgid "row"
+msgstr ""
+
+#: src/blocks/section/index.js:13
+#: src/blocks/column/index.js:120
+msgid "section"
+msgstr ""
+
+#: src/blocks/section/index.js:13
+#: src/blocks/column/index.js:120
+msgid "layout"
+msgstr ""
+
+#: src/blocks/profile/index.js:11
+msgid "Profile"
+msgstr ""
+
+#: src/blocks/profile/index.js:13
+msgid "Add beautiful customized profile."
+msgstr ""
+
+#: src/blocks/profile/index.js:15
+msgid "profile"
+msgstr ""
+
+#: src/blocks/profile/index.js:15
+msgid "author"
+msgstr ""
+
+#: src/blocks/separator-heading/edit.js:63
+msgid "Border Height"
+msgstr ""
+
+#: src/blocks/separator-heading/index.js:11
+msgid "Separator With Text"
+msgstr ""
+
+#: src/blocks/separator-heading/index.js:13
+msgid "Insert a horizontal line with text in the center."
+msgstr ""
+
+#: src/blocks/share/edit.js:64
+#: src/blocks/share/edit.js:166
+msgid "Facebook"
+msgstr ""
+
+#: src/blocks/share/edit.js:79
+#: src/blocks/share/edit.js:172
+msgid "Twitter"
+msgstr ""
+
+#: src/blocks/share/edit.js:94
+#: src/blocks/share/edit.js:178
+msgid "Google+"
+msgstr ""
+
+#: src/blocks/share/edit.js:109
+#: src/blocks/share/edit.js:184
+msgid "Reddit"
+msgstr ""
+
+#: src/blocks/share/edit.js:124
+#: src/blocks/share/edit.js:190
+msgid "Linkedin"
+msgstr ""
+
+#: src/blocks/share/edit.js:139
+#: src/blocks/share/edit.js:196
+msgid "Email"
+msgstr ""
+
+#: src/blocks/share/edit.js:214
+#: src/blocks/share/edit.js:220
+msgid "Icon Color"
+msgstr ""
+
+#: src/blocks/share/index.js:10
+msgid "Share"
+msgstr ""
+
+#: src/blocks/share/index.js:12
+msgid "Make your visitors share your content."
+msgstr ""
+
+#: src/blocks/share/index.js:14
+msgid "share"
+msgstr ""
+
+#: src/blocks/share/index.js:14
+msgid "facebook"
+msgstr ""
+
+#: src/blocks/share/index.js:14
+msgid "twitter"
+msgstr ""
+
+#: src/blocks/column/index.js:118
+msgid "Column"
+msgstr ""
+
+#: src/blocks/column/index.js:120
+msgid "column"
+msgstr ""
+
+#: src/blocks/progress-bar/edit.js:42
+msgid "Progress"
+msgstr ""
+
+#: src/blocks/progress-bar/edit.js:63
+#: src/blocks/progress-bar/edit.js:69
+msgid "Progress Color"
+msgstr ""
+
+#: src/blocks/progress-bar/edit.js:76
+#: src/blocks/progress-bar/edit.js:82
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: src/blocks/progress-bar/edit.js:88
+#: src/blocks/progress-bar/edit.js:94
+msgid "Tooltip Color"
+msgstr ""
+
+#: src/blocks/progress-bar/index.js:10
+msgid "Progress Bar"
+msgstr ""
+
+#: src/blocks/progress-bar/index.js:12
+msgid "Add beautiful customized progress bar."
+msgstr ""
+
+#: src/blocks/progress-bar/index.js:14
+msgid "progress"
+msgstr ""
+
+#: src/blocks/progress-bar/index.js:14
+msgid "bar"
+msgstr ""
+
+#: src/blocks/progress-bar/index.js:14
+msgid "skill"
+msgstr ""
+
+#: src/blocks/testimonial/edit.js:424
+msgid "Show Arrows"
+msgstr ""
+
+#: src/blocks/testimonial/edit.js:430
+msgid "Show Points"
+msgstr ""
+
+#: src/blocks/testimonial/edit.js:461
+#: src/blocks/testimonial/edit.js:467
+msgid "Arrows Color"
+msgstr ""
+
+#: src/blocks/testimonial/edit.js:474
+#: src/blocks/testimonial/edit.js:480
+msgid "Points Color"
+msgstr ""
+
+#: src/blocks/testimonial/index.js:12
+msgid "Testimonial"
+msgstr ""
+
+#: src/blocks/testimonial/index.js:14
+msgid "Add a multiple testimonials with a name, title and text."
+msgstr ""
+
+#: src/blocks/testimonial/index.js:16
+msgid "testimonial"
+msgstr ""
+
+#: src/blocks/testimonial/index.js:16
+msgid "user"
+msgstr ""

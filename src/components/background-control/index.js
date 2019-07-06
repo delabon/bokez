@@ -47,29 +47,29 @@ export default class BackgroundControl extends Component {
                 <Fragment>
              
                     <SelectControl
-                        label = { __('Choose orientation') }
+                        label = { __('Choose orientation', 'bokez') }
                         value= { gradient_orientation }
                         options={ [
-                            { label: __('Bottom Left to Top Right'), value: 'to right top' },
-                            { label: __('Left to Right'), value: 'to right' },
-                            { label: __('Top Left to Bottom Right'), value: 'to right bottom' },
-                            { label: __('Top to Bottom'), value: 'to bottom' },
-                            { label: __('Top Right to Bottom Left'), value: 'to left bottom' },
-                            { label: __('Right to Left'), value: 'to left' },
-                            { label: __('Bottom Right to Top Left'), value: 'to left top' },
-                            { label: __('Bottom to Top'), value: 'to top' },
+                            { label: __('Bottom Left to Top Right', 'bokez'), value: 'to right top' },
+                            { label: __('Left to Right', 'bokez'), value: 'to right' },
+                            { label: __('Top Left to Bottom Right', 'bokez'), value: 'to right bottom' },
+                            { label: __('Top to Bottom', 'bokez'), value: 'to bottom' },
+                            { label: __('Top Right to Bottom Left', 'bokez'), value: 'to left bottom' },
+                            { label: __('Right to Left', 'bokez'), value: 'to left' },
+                            { label: __('Bottom Right to Top Left', 'bokez'), value: 'to left top' },
+                            { label: __('Bottom to Top', 'bokez'), value: 'to top' },
                         ] }
                         onChange={ onGradientOrientationChange }
                     />
 
                     <ColorControl
-                        label = { __('From') }
+                        label = { __('From', 'bokez') }
                         value = { gradient_from }
                         onChange = { onGradientFromChange }
                     />
 
                     <ColorControl
-                        label = { __('To') }
+                        label = { __('To', 'bokez') }
                         value = { gradient_to }
                         onChange = { onGradientToChange }
                     />
@@ -100,14 +100,14 @@ export default class BackgroundControl extends Component {
                                             className = { 'button button-primary' }
                                             onClick = { obj.open } 
                                         >
-                                            {__('Select Image')}
+                                            {__('Select Image', 'bokez')}
                                         </Button>
 
                                         <Button
                                             className = { 'button' }
                                             onClick = { _self.props.onImageRemove } 
                                         >
-                                            {__('Remove Image')}
+                                            {__('Remove Image', 'bokez')}
                                         </Button>
 
                                     </Fragment>
@@ -117,51 +117,51 @@ export default class BackgroundControl extends Component {
                     </div>
 
                     <SelectControl
-                        label = { __('Image Size') }
+                        label = { __('Image Size', 'bokez') }
                         value= { _self.props.image_size }
                         options={ [
-                            { label: __('Cover'), value: 'cover' },
-                            { label: __('Contain'), value: 'contain' },
-                            { label: __('Auto'), value: 'auto' },
+                            { label: __('Cover', 'bokez'), value: 'cover' },
+                            { label: __('Contain', 'bokez'), value: 'contain' },
+                            { label: __('Auto', 'bokez'), value: 'auto' },
                         ] }
                         onChange={ _self.props.onImageSizeChange }
                     />
 
                     <SelectControl
-                        label = { __('Image Position') }
+                        label = { __('Image Position', 'bokez') }
                         value= { _self.props.image_position }
                         options={ [
-                            { label: __('Center Center'), value: 'center center' },
-                            { label: __('Center Top'), value: 'center top' },
-                            { label: __('Center Bottom'), value: 'center bottom' },
-                            { label: __('Left Top'), value: 'left top' },
-                            { label: __('Left Center'), value: 'left center' },
-                            { label: __('Left Bottom'), value: 'left bottom' },
-                            { label: __('Right Top'), value: 'right top' },
-                            { label: __('Right Center'), value: 'right center' },
-                            { label: __('Right Bottom'), value: 'right bottom' },
+                            { label: __('Center Center', 'bokez'), value: 'center center' },
+                            { label: __('Center Top', 'bokez'), value: 'center top' },
+                            { label: __('Center Bottom', 'bokez'), value: 'center bottom' },
+                            { label: __('Left Top', 'bokez'), value: 'left top' },
+                            { label: __('Left Center', 'bokez'), value: 'left center' },
+                            { label: __('Left Bottom', 'bokez'), value: 'left bottom' },
+                            { label: __('Right Top', 'bokez'), value: 'right top' },
+                            { label: __('Right Center', 'bokez'), value: 'right center' },
+                            { label: __('Right Bottom', 'bokez'), value: 'right bottom' },
                         ] }
                         onChange={ _self.props.onImagePositionChange }
                     />
                        
                     <SelectControl
-                        label = { __('Image Repeat') }
+                        label = { __('Image Repeat', 'bokez') }
                         value= { _self.props.image_repeat }
                         options={ [
-                            { label: __('No Repeat'), value: 'no-repeat' },
-                            { label: __('Repeat'), value: 'repeat' },
-                            { label: __('Repeat-x'), value: 'repeat-x' },
-                            { label: __('Repeat-y'), value: 'repeat-y' },
+                            { label: __('No Repeat', 'bokez'), value: 'no-repeat' },
+                            { label: __('Repeat', 'bokez'), value: 'repeat' },
+                            { label: __('Repeat-x', 'bokez'), value: 'repeat-x' },
+                            { label: __('Repeat-y', 'bokez'), value: 'repeat-y' },
                         ] }
                         onChange={ _self.props.onImageRepeatChange }
                     />
 
                     <SelectControl
-                        label = { __('Image Attachment') }
+                        label = { __('Image Attachment', 'bokez') }
                         value= { _self.props.image_attachment }
                         options={ [
-                            { label: __('Fixed'), value: 'fixed' },
-                            { label: __('Scroll'), value: 'scroll' },
+                            { label: __('Fixed', 'bokez'), value: 'fixed' },
+                            { label: __('Scroll', 'bokez'), value: 'scroll' },
                         ] }
                         onChange={ _self.props.onImageAttachmentChange }
                     />
@@ -193,17 +193,17 @@ export default class BackgroundControl extends Component {
                     tabs={ [
                         {
                             name: 'color',
-                            title: __('Color'),
+                            title: __('Color', 'bokez'),
                             className: 'bokez-color-tab',
                         },
                         {
                             name: 'gradient',
-                            title: __('Gradient'),
+                            title: __('Gradient', 'bokez'),
                             className: 'bokez-gradient-tab',
                         },
                         {
                             name: 'image',
-                            title: __('Image'),
+                            title: __('Image', 'bokez'),
                             className: 'bokez-image-tab',
                         },
                     ] }
@@ -214,7 +214,7 @@ export default class BackgroundControl extends Component {
                 </TabPanel>
 
                 <ColorControl
-                    label = { this.props.type == 'color' ? __('Color') : __('Fallback Color') }
+                    label = { this.props.type == 'color' ? __('Color', 'bokez') : __('Fallback Color', 'bokez') }
                     value = { color }
                     onChange = { onColorChange }
                 />

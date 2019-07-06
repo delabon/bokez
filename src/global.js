@@ -3,38 +3,38 @@ const { __ } = wp.i18n;
 export const bokez = {
 
     buttonSizes: [
-		{ value: 'small', label: __( 'Small' ) },
-		{ value: 'default', label: __( 'Default' ) },
-		{ value: 'medium', label: __( 'Medium' ) },
-        { value: 'large', label: __( 'Large' ) },
+		{ value: 'small', label: __( 'Small' , 'bokez') },
+		{ value: 'default', label: __( 'Default' , 'bokez') },
+		{ value: 'medium', label: __( 'Medium' , 'bokez') },
+        { value: 'large', label: __( 'Large' , 'bokez') },
     ],
     
     buttonTypes: [
-		{ value: 'flat', label: __( 'Flat' ) },
-		{ value: 'rounded', label: __( 'Rounded' ) },
-        { value: 'calltoaction', label: __( 'Call To Action' ) },
+		{ value: 'flat', label: __( 'Flat' , 'bokez') },
+		{ value: 'rounded', label: __( 'Rounded' , 'bokez') },
+        { value: 'calltoaction', label: __( 'Call To Action' , 'bokez') },
 	],
 
     borderTypes: [
-		{ value: 'solid', label: __( 'Solid' ) },
-		{ value: 'dashed', label: __( 'Dashed' ) },
-		{ value: 'dotted', label: __( 'Dotted' ) },
-        { value: 'double', label: __( 'Double' ) },
-		{ value: 'ridge', label: __( 'Ridge' ) },
+		{ value: 'solid', label: __( 'Solid' , 'bokez') },
+		{ value: 'dashed', label: __( 'Dashed' , 'bokez') },
+		{ value: 'dotted', label: __( 'Dotted' , 'bokez') },
+        { value: 'double', label: __( 'Double' , 'bokez') },
+		{ value: 'ridge', label: __( 'Ridge' , 'bokez') },
 	],
 
     borderPositions: [
-        { value: 'left', label: __( 'Left' ) },
-        { value: 'right', label: __( 'Right' ) },
-        { value: 'top', label: __( 'Top' ) },
-        { value: 'bottom', label: __( 'Bottom' ) },
+        { value: 'left', label: __( 'Left' , 'bokez') },
+        { value: 'right', label: __( 'Right' , 'bokez') },
+        { value: 'top', label: __( 'Top' , 'bokez') },
+        { value: 'bottom', label: __( 'Bottom' , 'bokez') },
     ],
 
     notificationTypes: [
-		{ value: 'info', label: __( 'Info' ) },
-		{ value: 'error', label: __( 'Error' ) },
-		{ value: 'success', label: __( 'Success' ) },
-		{ value: 'warning', label: __( 'Warning' ) },
+		{ value: 'info', label: __( 'Info' , 'bokez') },
+		{ value: 'error', label: __( 'Error' , 'bokez') },
+		{ value: 'success', label: __( 'Success' , 'bokez') },
+		{ value: 'warning', label: __( 'Warning' , 'bokez') },
 	],
 
     /**

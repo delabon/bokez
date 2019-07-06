@@ -47,29 +47,29 @@ export default class BackgroundOverlayControl extends Component {
                 <Fragment>
              
                     <SelectControl
-                        label = { __('Choose orientation') }
+                        label = { __('Choose orientation', 'bokez') }
                         value= { gradient_orientation }
                         options={ [
-                            { label: __('Bottom Left to Top Right'), value: 'to right top' },
-                            { label: __('Left to Right'), value: 'to right' },
-                            { label: __('Top Left to Bottom Right'), value: 'to right bottom' },
-                            { label: __('Top to Bottom'), value: 'to bottom' },
-                            { label: __('Top Right to Bottom Left'), value: 'to left bottom' },
-                            { label: __('Right to Left'), value: 'to left' },
-                            { label: __('Bottom Right to Top Left'), value: 'to left top' },
-                            { label: __('Bottom to Top'), value: 'to top' },
+                            { label: __('Bottom Left to Top Right', 'bokez'), value: 'to right top' },
+                            { label: __('Left to Right', 'bokez'), value: 'to right' },
+                            { label: __('Top Left to Bottom Right', 'bokez'), value: 'to right bottom' },
+                            { label: __('Top to Bottom', 'bokez'), value: 'to bottom' },
+                            { label: __('Top Right to Bottom Left', 'bokez'), value: 'to left bottom' },
+                            { label: __('Right to Left', 'bokez'), value: 'to left' },
+                            { label: __('Bottom Right to Top Left', 'bokez'), value: 'to left top' },
+                            { label: __('Bottom to Top', 'bokez'), value: 'to top' },
                         ] }
                         onChange={ onGradientOrientationChange }
                     />
 
                     <ColorControl
-                        label = { __('From') }
+                        label = { __('From', 'bokez') }
                         value = { gradient_from }
                         onChange = { onGradientFromChange }
                     />
 
                     <ColorControl
-                        label = { __('To') }
+                        label = { __('To', 'bokez') }
                         value = { gradient_to }
                         onChange = { onGradientToChange }
                     />
@@ -101,12 +101,12 @@ export default class BackgroundOverlayControl extends Component {
                     tabs={ [
                         {
                             name: 'color',
-                            title: __('Color'),
+                            title: __('Color', 'bokez'),
                             className: 'bokez-color-tab',
                         },
                         {
                             name: 'gradient',
-                            title: __('Gradient'),
+                            title: __('Gradient', 'bokez'),
                             className: 'bokez-gradient-tab',
                         },
                     ] }
@@ -117,7 +117,7 @@ export default class BackgroundOverlayControl extends Component {
                 </TabPanel>
 
                 <ColorControl
-                    label = { this.props.type == 'color' ? __('Color') : __('Fallback Color') }
+                    label = { this.props.type == 'color' ? __('Color', 'bokez') : __('Fallback Color', 'bokez') }
                     value = { color }
                     onChange = { onColorChange }
                 />
