@@ -1,4 +1,4 @@
-#wpwrap{
+.toplevel_page_bokez_admin_page #wpwrap{
     background-color: white;
 }
 
@@ -102,4 +102,34 @@
 .bokez-tabs-content p{
     font-size: inherit;
     line-height: inherit;
+}
+
+/** Admin Notices **/
+.bokez-notice{
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.bokez-notice img{
+    display: block;
+    max-width: 100%;
+}
+
+.bokez-notice-close{
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    width: 44px;
+    height: 24px;
+    font-size: 16px;
+    transform: translate(-50%, 0);
+    background: white !important;
+    outline: 0 !important;
+    border: 1px solid #e1e1e1 !important;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

@@ -64,10 +64,28 @@ add_action( 'admin_init', function() {
 /**
  * Admin Notices
  */
-add_action( 'admin_notices', function () {
+add_action( 'admin_notices', function() {
+    
+    $transient = get_transient( 'bokez_banner' );
+  
+    if( $transient ) return;
+
     ?>
-        <div class="notice notice-success is-dismissible">
-            <p><?php _e( 'Done!', 'sample-text-domain' ); ?></p>
+        <div class="bokez-notice">
+
+            <a href="<?php echo admin_url('plugin-install.php?s=sogrid&tab=search&type=term'); ?>" >
+                <img src="<?php echo BOKEZ_URL; ?>/dist/img/banner-1024.jpg" alt="" >
+            </a>
+
+            <button class="bokez-notice-close">&times;</button>
         </div>
     <?php
+});
+
+/**
+ * Ajax :: Hide Banner
+ */
+add_action('wp_ajax_bokez_banner_hide', function(){
+    set_transient( 'bokez_banner', true, WEEK_IN_SECONDS );
+    die;
 });

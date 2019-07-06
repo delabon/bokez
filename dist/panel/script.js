@@ -29,4 +29,14 @@
         $(this).parent().toggleClass('_open_');
     });
 
+    /**
+     * Admin Notice 
+     */
+    $('.bokez-notice-close').on('click', function(e){
+        e.preventDefault();
+        $.post( ajaxurl, { action: "bokez_banner_hide" }, function(data){
+            $('.bokez-notice').slideUp();
+        });
+    });
+
 })( jQuery )

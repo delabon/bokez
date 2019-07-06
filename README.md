@@ -1,15 +1,16 @@
-=== Bokez | Best Gutenberg Blocks - Wordpress Page Builder ===
-Requires at least: 5.0
-Tested up to: 5.2
-Requires PHP: 5.4
-Stable tag: 2.1.0
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: posts grid block, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
+# Bokez | Best Gutenberg Blocks - Wordpress Page Builder 
+**Requires at least:** 5.0  
+**Tested up to:** 5.2  
+**Requires PHP:** 5.4
+**Stable tag:** 2.1.0  
+**License:** GPLv3  
+**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
+**Tags:** posts grid block, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks  
 
 Build a beautiful website in minutes with best 15 essential Gutenberg blocks. Customizable and super easy to use.
 
-== Description ==
+
+## Description 
 
 **Version 2 ( Row / Column ) = Page Builder**
 
@@ -51,7 +52,8 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 
 * [More Wordpress Plugins](https://delabon.com)
 
-== Installation ==
+
+## Installation 
 **Only Wordpress 5+**
 
 1. Upload the plugin folder using an FTP/SFTP software to your wordpress/wp-content/plugins folder.
@@ -59,25 +61,45 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 3. Click on "Install"
 4. Click on "Activate"
 
-== Screenshots ==
 
-1. Pricing Table
-2. Posts Grid
-3. Accordion / FAQ
-4. Testimonials
-5. Cover / Header
-6. Separator With Text
-7. Posts Grid Editor
-8. Accordion / FAQ Editor
+## Screenshots 
 
-== Changelog ==
+### 1. Pricing Table
+[missing image]
 
-= 2.1.0 =
+### 2. Posts Grid
+[missing image]
+
+### 3. Accordion / FAQ
+[missing image]
+
+### 4. Testimonials
+[missing image]
+
+### 5. Cover / Header
+[missing image]
+
+### 6. Separator With Text
+[missing image]
+
+### 7. Posts Grid Editor
+[missing image]
+
+### 8. Accordion / FAQ Editor
+[missing image]
+
+
+
+## Changelog 
+
+
+### 2.1.0 
 * Added padding top/bottom and margin top/bottom options to each column.
 * Added .po language file
 * Code improvements
 
-= 2.0.0 ( New Section Block And More... ) = 
+
+### 2.0.0 ( New Section Block And More... ) 
 
 * Added a new "Section" Block.
 * Re-created the pricing table block to work with the new row/column system.
@@ -87,7 +109,8 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 * Fixed "separator with text" block css bug.
 * Fixed "FAQ/ accordion" block css bug.
 
-= 1.8.0 ( To Prevent re-creating all blocks with every new update ) =
+
+### 1.8.0 ( To Prevent re-creating all blocks with every new update ) 
 
 * Converted Blockquote block to a dynamic block.
 * Converted Button block to a dynamic block.
@@ -105,77 +128,91 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 * Fixed: Posts Grid CSS Bugs.
 * Fixed: Pricing Table Image Upload Bug.
 
-= 1.7.4 =
+
+### 1.7.4 
 
 * Fixed: Accordion / FAQ Block.
 * Fixed: Testimonials Block.
 * Fixed: CSS bugs.
 
-= 1.7.1 =
+
+### 1.7.1 
 
 * Code Refactor
 
-= 1.7.0 ( Wordpress 5.0 Compatible ) =
+
+### 1.7.0 ( Wordpress 5.0 Compatible ) 
 
 * Unminified Source
 * Improved: Code.
 * Fixed: Bugs.
 
-= 1.6.0 =
+
+### 1.6.0 
 
 * New: Getting Started Guide.
 * Improved: Testimonial Block.
 * Improved: Notifications Block.
 * Improved: Cover Block.
 
-= 1.5.1 =
+
+### 1.5.1 
 
 * Removed Duplicated Code.
 
-= 1.5.0 =
+
+### 1.5.0 
 
 * Added : Video Popup Block.
 * Code Improvements.
 
-= 1.4.4 =
+
+### 1.4.4 
 
 * Fixed : Some Css Bugs
 * Updated : Pricing Table block to work with the latest gutenberg api.
 * Updated : Button block to work with the latest gutenberg api.
 * Updated : Posts Grid block to work with the latest gutenberg api.
 
-= 1.4.0 =
+
+### 1.4.0 
 
 * Added : Pricing Table Block.
 * Fixed : Notification Block Color Not Changing Bug.
 * Fixed : Notification Block Margin Bug.
 * Added : New Icon To Posts Grid Block.
 
-= 1.3.0 =
+
+### 1.3.0 
 
 * Improved : Testimonial Block ( Ability to add multiple testimonials in the same block ).
 * Improved : Share Block ( Added Colors Customization ).
 * Fixed : Notification Block Dismiss Issue.
 
-= 1.2.1 =
+
+### 1.2.1 
 
 * Fixed : Accordion Duplicate Bug.
 
-= 1.2.0 =
+
+### 1.2.0 
 
 * Added : Accordion / FAQ Block.
 * Code Improvements.
 
-= 1.1.0 =
+
+### 1.1.0 
 
 * Added : Posts Grid Block.
 * Code Improvements.
 
-= 1.0.2 =
+
+### 1.0.2 
 
 * Responsive Improvements.
 
-= 1.0.1 =
+
+### 1.0.1 
 
 * Added : Testimonial Block.
 * Added : Profile Block.

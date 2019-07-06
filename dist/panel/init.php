@@ -33,8 +33,6 @@ function bokez_admin_page(){
  */
 function bokez_admin_page_assets( $key ) {
     
-    if( $key !== 'toplevel_page_bokez_admin_page' ) return;
-
     wp_enqueue_style( 'bokez-admin-page', BOKEZ_URL . 'dist/panel/style.css', array(), BOKEZ_VERSION );
 
     wp_enqueue_script( 'bokez-admin-page', BOKEZ_URL . 'dist/panel/script.js', array('jquery'), BOKEZ_VERSION, true );
