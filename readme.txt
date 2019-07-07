@@ -37,6 +37,10 @@ Install it now and start creating beautiful looking pages with ease and without 
 
 ### More Powerful Plugins
 
+* [Sogrid - Awesome Posts Grid Blocks](https://wordpress.org/plugins/sogrid/)
+
+Create posts grid easily with Sogrid. 10 Layouts, Customization and more. 
+
 * [Woomotiv - Woocommerce Sales Notifications Plugin](https://wordpress.org/plugins/woomotiv/)
 
 Boost your woocommerce sales using this social proof plugin. Woomotiv displays recent sales popups to your visitors to make your site trustworthy.

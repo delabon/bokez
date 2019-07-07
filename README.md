@@ -1,7 +1,7 @@
 # Bokez | Best Gutenberg Blocks - Wordpress Page Builder 
 **Requires at least:** 5.0  
 **Tested up to:** 5.2  
-**Requires PHP:** 5.4
+Requires PHP: 5.4
 **Stable tag:** 2.1.0  
 **License:** GPLv3  
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
@@ -37,6 +37,10 @@ Install it now and start creating beautiful looking pages with ease and without 
 14. Separator With Heading Block : [Demo](http://demo.delabon.com/bokez/separator-with-text)
 
 ### More Powerful Plugins
+
+* [Sogrid - Awesome Posts Grid Blocks](https://wordpress.org/plugins/sogrid/)
+
+Create posts grid easily with Sogrid. 10 Layouts, Customization and more. 
 
 * [Woomotiv - Woocommerce Sales Notifications Plugin](https://wordpress.org/plugins/woomotiv/)
 
