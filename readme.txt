@@ -1,41 +1,70 @@
-=== Bokez | Best Gutenberg Blocks - Wordpress Page Builder ===
+=== Bokez | Best Gutenberg Blocks - Painless Wordpress Page Builder ===
+Contributors: delabon
 Requires at least: 5.0
 Tested up to: 5.2
 Requires PHP: 5.4
 Stable tag: 2.1.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: posts grid block, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
+Tags: posts grid, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
 
 Build a beautiful website in minutes with best 15 essential Gutenberg blocks. Customizable and super easy to use.
 
 == Description ==
 
-**Version 2 ( Row / Column ) = Page Builder**
+[See Demo Site](https://delabon.com/demo/bokez/) | [See Screenshots](#screenshots) | [Support](https://delabon.com/support)
 
-Bokez is an awesome collection of blocks which made for the new WordPress Gutenberg Editor. With Bokez you get your essential blocks, customization options, and more. 
+Bokez is a page builder created under the new Wordpress Gutenberg Editor. With 15 Awesome blocks you can create stunning pages/posts in minutes.
 
-Install it now and start creating beautiful looking pages with ease and without typing a single line of code.
+Give it a try. it is super easy to use with ton of options to make your pages unique and beautiful.
 
-### 15 Awesome Gutenberg Blocks
+== 15 Awesome Gutenberg Blocks ==
 
-0. Section (Row) / Columns (NEW) : [Demo](http://demo.delabon.com/bokez/)
-1. Video Popup Block : [Demo](http://demo.delabon.com/bokez/video-popup/)
-2. Pricing Table Block : [Demo](http://demo.delabon.com/bokez/pricing-table)
-3. Posts Grid Block : [Demo](http://demo.delabon.com/bokez/posts-grid)
-4. Testimonial Block ( Multiple Testomonials ) : [Demo](http://demo.delabon.com/bokez/testimonial)
-5. Accordion / FAQ Block ( Multiple Accordions ) : [Demo](http://demo.delabon.com/bokez/accordion-faq)
-6. Profile Block : [Demo](http://demo.delabon.com/bokez/profile)
-7. Cover Block : [Demo](http://demo.delabon.com/bokez/cover)
-8. Share Icons Block : [Demo](http://demo.delabon.com/bokez/share)
-9. Button Block : [Demo](http://demo.delabon.com/bokez/button)
-10. Notification Block : [Demo](http://demo.delabon.com/bokez/notification)
-11. Blockquote Block : [Demo](http://demo.delabon.com/bokez/blockquote/)
-12. Divider Block : [Demo](http://demo.delabon.com/bokez/divider)
-13. Progress Bar Block : [Demo](http://demo.delabon.com/bokez/progress-bar)
-14. Separator With Heading Block : [Demo](http://demo.delabon.com/bokez/separator-with-text)
+0. Section (Row) / Columns (NEW) : [Demo](https://delabon.com/demo/bokez/)
+1. Video Popup Block : [Demo](https://delabon.com/demo/bokez/video-popup/)
+2. Pricing Table Block : [Demo](https://delabon.com/demo/bokez/pricing-table)
+3. Posts Grid Block : [Demo](https://delabon.com/demo/bokez/posts-grid)
+4. Testimonial Block ( Multiple Testomonials ) : [Demo](https://delabon.com/demo/bokez/testimonial)
+5. Accordion / FAQ Block ( Multiple Accordions ) : [Demo](https://delabon.com/demo/bokez/accordion-faq)
+6. Profile Block : [Demo](https://delabon.com/demo/bokez/profile)
+7. Cover Block : [Demo](https://delabon.com/demo/bokez/cover)
+8. Share Icons Block : [Demo](https://delabon.com/demo/bokez/share)
+9. Button Block : [Demo](https://delabon.com/demo/bokez/button)
+10. Notification Block : [Demo](https://delabon.com/demo/bokez/notification)
+11. Blockquote Block : [Demo](https://delabon.com/demo/bokez/blockquote/)
+12. Divider Block : [Demo](https://delabon.com/demo/bokez/divider)
+13. Progress Bar Block : [Demo](https://delabon.com/demo/bokez/progress-bar)
+14. Separator With Heading Block : [Demo](https://delabon.com/demo/bokez/separator-with-text)
 
-### More Powerful Plugins
+== Getting Started ==
+
+= Automatic installation =
+
+1. Log in to your WordPress dashboard.
+2. Navigate to "Plugins > Add New".
+3. In the search field type "bokez" and click Search Plugins. 
+4. Install it by simply clicking "Install Now".
+5. Click on "Activate".
+
+= Manual installation =
+
+1. Download the plugin.
+2. Upload the plugin folder using an FTP/SFTP software to your wordpress/wp-content/plugins folder.
+3. Navigate to "Plugins".
+4. Scroll Down until your find "Bokez" plugin in the list.
+5. Click on "Activate".
+
+Complete guide: [The WordPress codex tutorial](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
+
+= Adding Your First Block =
+
+1. Create or open a new page/post.
+2. Click on the "plus" button.
+3. Search for "Bokez"
+4. You should see a list of Bokez blocks.
+5. Click on one of them.
+
+== You May Need ==
 
 * [Sogrid - Awesome Posts Grid Blocks](https://wordpress.org/plugins/sogrid/)
 
@@ -54,14 +83,6 @@ A Woocommerce plugin that displays your product recent customers next to the Add
 Create awesome, elegant and perfect galleries easily in your wordpress editor.
 
 * [More Wordpress Plugins](https://delabon.com)
-
-== Installation ==
-**Only Wordpress 5+**
-
-1. Upload the plugin folder using an FTP/SFTP software to your wordpress/wp-content/plugins folder.
-2. Or search for bokez from your Dashboard > Plugins > Add Plugin
-3. Click on "Install"
-4. Click on "Activate"
 
 == Screenshots ==
 

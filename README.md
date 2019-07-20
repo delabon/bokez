@@ -1,42 +1,70 @@
-# Bokez | Best Gutenberg Blocks - Wordpress Page Builder 
-**Requires at least:** 5.0  
-**Tested up to:** 5.2  
+=== Bokez | Best Gutenberg Blocks - Painless Wordpress Page Builder ===
+Contributors: delabon
+Requires at least: 5.0
+Tested up to: 5.2
 Requires PHP: 5.4
-**Stable tag:** 2.1.0  
-**License:** GPLv3  
-**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
-**Tags:** posts grid block, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks  
+Stable tag: 2.1.0
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: posts grid, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
 
 Build a beautiful website in minutes with best 15 essential Gutenberg blocks. Customizable and super easy to use.
 
+== Description ==
 
-## Description 
+[See Demo Site](https://delabon.com/demo/bokez/) | [See Screenshots](#screenshots) | [Support](https://delabon.com/support)
 
-**Version 2 ( Row / Column ) = Page Builder**
+Bokez is a page builder created under the new Wordpress Gutenberg Editor. With 15 Awesome blocks you can create stunning pages/posts in minutes.
 
-Bokez is an awesome collection of blocks which made for the new WordPress Gutenberg Editor. With Bokez you get your essential blocks, customization options, and more. 
+Give it a try. it is super easy to use with ton of options to make your pages unique and beautiful.
 
-Install it now and start creating beautiful looking pages with ease and without typing a single line of code.
+== 15 Awesome Gutenberg Blocks ==
 
-### 15 Awesome Gutenberg Blocks
+0. Section (Row) / Columns (NEW) : [Demo](https://delabon.com/demo/bokez/)
+1. Video Popup Block : [Demo](https://delabon.com/demo/bokez/video-popup/)
+2. Pricing Table Block : [Demo](https://delabon.com/demo/bokez/pricing-table)
+3. Posts Grid Block : [Demo](https://delabon.com/demo/bokez/posts-grid)
+4. Testimonial Block ( Multiple Testomonials ) : [Demo](https://delabon.com/demo/bokez/testimonial)
+5. Accordion / FAQ Block ( Multiple Accordions ) : [Demo](https://delabon.com/demo/bokez/accordion-faq)
+6. Profile Block : [Demo](https://delabon.com/demo/bokez/profile)
+7. Cover Block : [Demo](https://delabon.com/demo/bokez/cover)
+8. Share Icons Block : [Demo](https://delabon.com/demo/bokez/share)
+9. Button Block : [Demo](https://delabon.com/demo/bokez/button)
+10. Notification Block : [Demo](https://delabon.com/demo/bokez/notification)
+11. Blockquote Block : [Demo](https://delabon.com/demo/bokez/blockquote/)
+12. Divider Block : [Demo](https://delabon.com/demo/bokez/divider)
+13. Progress Bar Block : [Demo](https://delabon.com/demo/bokez/progress-bar)
+14. Separator With Heading Block : [Demo](https://delabon.com/demo/bokez/separator-with-text)
 
-0. Section (Row) / Columns (NEW) : [Demo](http://demo.delabon.com/bokez/)
-1. Video Popup Block : [Demo](http://demo.delabon.com/bokez/video-popup/)
-2. Pricing Table Block : [Demo](http://demo.delabon.com/bokez/pricing-table)
-3. Posts Grid Block : [Demo](http://demo.delabon.com/bokez/posts-grid)
-4. Testimonial Block ( Multiple Testomonials ) : [Demo](http://demo.delabon.com/bokez/testimonial)
-5. Accordion / FAQ Block ( Multiple Accordions ) : [Demo](http://demo.delabon.com/bokez/accordion-faq)
-6. Profile Block : [Demo](http://demo.delabon.com/bokez/profile)
-7. Cover Block : [Demo](http://demo.delabon.com/bokez/cover)
-8. Share Icons Block : [Demo](http://demo.delabon.com/bokez/share)
-9. Button Block : [Demo](http://demo.delabon.com/bokez/button)
-10. Notification Block : [Demo](http://demo.delabon.com/bokez/notification)
-11. Blockquote Block : [Demo](http://demo.delabon.com/bokez/blockquote/)
-12. Divider Block : [Demo](http://demo.delabon.com/bokez/divider)
-13. Progress Bar Block : [Demo](http://demo.delabon.com/bokez/progress-bar)
-14. Separator With Heading Block : [Demo](http://demo.delabon.com/bokez/separator-with-text)
+== Getting Started ==
 
-### More Powerful Plugins
+= Automatic installation =
+
+1. Log in to your WordPress dashboard.
+2. Navigate to "Plugins > Add New".
+3. In the search field type "bokez" and click Search Plugins. 
+4. Install it by simply clicking "Install Now".
+5. Click on "Activate".
+
+= Manual installation =
+
+1. Download the plugin.
+2. Upload the plugin folder using an FTP/SFTP software to your wordpress/wp-content/plugins folder.
+3. Navigate to "Plugins".
+4. Scroll Down until your find "Bokez" plugin in the list.
+5. Click on "Activate".
+
+Complete guide: [The WordPress codex tutorial](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
+
+= Adding Your First Block =
+
+1. Create or open a new page/post.
+2. Click on the "plus" button.
+3. Search for "Bokez"
+4. You should see a list of Bokez blocks.
+5. Click on one of them.
+
+== You May Need ==
 
 * [Sogrid - Awesome Posts Grid Blocks](https://wordpress.org/plugins/sogrid/)
 
@@ -56,54 +84,25 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 
 * [More Wordpress Plugins](https://delabon.com)
 
+== Screenshots ==
 
-## Installation 
-**Only Wordpress 5+**
+1. Pricing Table
+2. Posts Grid
+3. Accordion / FAQ
+4. Testimonials
+5. Cover / Header
+6. Separator With Text
+7. Posts Grid Editor
+8. Accordion / FAQ Editor
 
-1. Upload the plugin folder using an FTP/SFTP software to your wordpress/wp-content/plugins folder.
-2. Or search for bokez from your Dashboard > Plugins > Add Plugin
-3. Click on "Install"
-4. Click on "Activate"
+== Changelog ==
 
-
-## Screenshots 
-
-### 1. Pricing Table
-[missing image]
-
-### 2. Posts Grid
-[missing image]
-
-### 3. Accordion / FAQ
-[missing image]
-
-### 4. Testimonials
-[missing image]
-
-### 5. Cover / Header
-[missing image]
-
-### 6. Separator With Text
-[missing image]
-
-### 7. Posts Grid Editor
-[missing image]
-
-### 8. Accordion / FAQ Editor
-[missing image]
-
-
-
-## Changelog 
-
-
-### 2.1.0 
+= 2.1.0 =
 * Added padding top/bottom and margin top/bottom options to each column.
 * Added .po language file
 * Code improvements
 
-
-### 2.0.0 ( New Section Block And More... ) 
+= 2.0.0 ( New Section Block And More... ) = 
 
 * Added a new "Section" Block.
 * Re-created the pricing table block to work with the new row/column system.
@@ -113,8 +112,7 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 * Fixed "separator with text" block css bug.
 * Fixed "FAQ/ accordion" block css bug.
 
-
-### 1.8.0 ( To Prevent re-creating all blocks with every new update ) 
+= 1.8.0 ( To Prevent re-creating all blocks with every new update ) =
 
 * Converted Blockquote block to a dynamic block.
 * Converted Button block to a dynamic block.
@@ -132,91 +130,77 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 * Fixed: Posts Grid CSS Bugs.
 * Fixed: Pricing Table Image Upload Bug.
 
-
-### 1.7.4 
+= 1.7.4 =
 
 * Fixed: Accordion / FAQ Block.
 * Fixed: Testimonials Block.
 * Fixed: CSS bugs.
 
-
-### 1.7.1 
+= 1.7.1 =
 
 * Code Refactor
 
-
-### 1.7.0 ( Wordpress 5.0 Compatible ) 
+= 1.7.0 ( Wordpress 5.0 Compatible ) =
 
 * Unminified Source
 * Improved: Code.
 * Fixed: Bugs.
 
-
-### 1.6.0 
+= 1.6.0 =
 
 * New: Getting Started Guide.
 * Improved: Testimonial Block.
 * Improved: Notifications Block.
 * Improved: Cover Block.
 
-
-### 1.5.1 
+= 1.5.1 =
 
 * Removed Duplicated Code.
 
-
-### 1.5.0 
+= 1.5.0 =
 
 * Added : Video Popup Block.
 * Code Improvements.
 
-
-### 1.4.4 
+= 1.4.4 =
 
 * Fixed : Some Css Bugs
 * Updated : Pricing Table block to work with the latest gutenberg api.
 * Updated : Button block to work with the latest gutenberg api.
 * Updated : Posts Grid block to work with the latest gutenberg api.
 
-
-### 1.4.0 
+= 1.4.0 =
 
 * Added : Pricing Table Block.
 * Fixed : Notification Block Color Not Changing Bug.
 * Fixed : Notification Block Margin Bug.
 * Added : New Icon To Posts Grid Block.
 
-
-### 1.3.0 
+= 1.3.0 =
 
 * Improved : Testimonial Block ( Ability to add multiple testimonials in the same block ).
 * Improved : Share Block ( Added Colors Customization ).
 * Fixed : Notification Block Dismiss Issue.
 
-
-### 1.2.1 
+= 1.2.1 =
 
 * Fixed : Accordion Duplicate Bug.
 
-
-### 1.2.0 
+= 1.2.0 =
 
 * Added : Accordion / FAQ Block.
 * Code Improvements.
 
-
-### 1.1.0 
+= 1.1.0 =
 
 * Added : Posts Grid Block.
 * Code Improvements.
 
-
-### 1.0.2 
+= 1.0.2 =
 
 * Responsive Improvements.
 
-
-### 1.0.1 
+= 1.0.1 =
 
 * Added : Testimonial Block.
 * Added : Profile Block.
