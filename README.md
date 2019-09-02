@@ -1,4 +1,4 @@
-=== Bokez | Best Gutenberg Blocks - Painless Wordpress Page Builder ===
+=== Bokez - Wordpress Blocks ===
 Contributors: delabon
 Requires at least: 5.0
 Tested up to: 5.2
@@ -8,13 +8,13 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: posts grid, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
 
-Build a beautiful website in minutes with best 15 essential Gutenberg blocks. Customizable and super easy to use.
+Build a beautiful website in minutes with best 15 essential Wordpress blocks. Customizable and super easy to use.
 
 == Description ==
 
 [See Demo Site](https://delabon.com/demo/bokez/) | [See Screenshots](#screenshots) | [Support](https://delabon.com/support)
 
-Bokez is a page builder created under the new Wordpress Gutenberg Editor. With 15 Awesome blocks you can create stunning pages/posts in minutes.
+Bokez is a collection of essential Wordpress blocks. With 15 Awesome blocks you can create stunning pages/posts in minutes.
 
 Give it a try. it is super easy to use with ton of options to make your pages unique and beautiful.
 
@@ -66,23 +66,23 @@ Complete guide: [The WordPress codex tutorial](https://codex.wordpress.org/Manag
 
 == You May Need ==
 
-* [Sogrid - Awesome Posts Grid Blocks](https://wordpress.org/plugins/sogrid/)
+* [Sogrid - WordPress Post Grid Layouts](https://wordpress.org/plugins/sogrid/)
 
-Create posts grid easily with Sogrid. 10 Layouts, Customization and more. 
+10 Wordpress post grid layouts, Customization and more. 
 
-* [Woomotiv - Woocommerce Sales Notifications Plugin](https://wordpress.org/plugins/woomotiv/)
+* [Woomotiv - Woocommerce Notification](https://delabon.com/store/sales-notification-for-woocommerce)
 
-Boost your woocommerce sales using this social proof plugin. Woomotiv displays recent sales popups to your visitors to make your site trustworthy.
+Boost your woocommerce sales using this social proof plugin. Woomotiv displays recent sales / reviews notification to your future customers.
 
-* [Faceproof - Boost Woocommerce Sales Instantly](https://codecanyon.net/item/faceproof-boost-woocommerce-sales-instantly/22835201)
+* [Faceproof - Boost Woocommerce Sales Instantly](https://www.templatemonster.com/wordpress-plugins/faceproof-wordpress-plugin-83241.html)
 
 A Woocommerce plugin that displays your product recent customers next to the Add To Cart button. Powerful Woocommerce social proof method to increase conversion rate instantly.
 
-* [Ely - Fancy Wordpress Gallery Plugin](https://codecanyon.net/item/ely-wordpress-gallery-plugin/22116166)
+* [Ely - Fancy Wordpress Gallery Plugin](https://www.templatemonster.com/wordpress-plugins/ely-gutenberg-gallery-block-wordpress-plugin-83566.html)
 
 Create awesome, elegant and perfect galleries easily in your wordpress editor.
 
-* [More Wordpress Plugins](https://delabon.com)
+* [More Wordpress & Woocommerce Plugins](https://delabon.com)
 
 == Screenshots ==
 
