@@ -3,7 +3,7 @@ Contributors: delabon
 Requires at least: 5.0
 Tested up to: 5.2
 Requires PHP: 5.4
-Stable tag: 2.1.0
+Stable tag: 2.1.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: posts grid, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
@@ -96,6 +96,11 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 8. Accordion / FAQ Editor
 
 == Changelog ==
+
+= 2.1.3 =
+* Updated: Made admin getting started guide translatable. 
+* Updated: Translation file.
+* Replaced: Broken available blocks link.
 
 = 2.1.0 =
 * Added padding top/bottom and margin top/bottom options to each column.

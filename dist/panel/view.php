@@ -4,32 +4,34 @@
         <h1>Bokez - Page Builder (<?php echo BOKEZ_VERSION ?>)</h1>
 
         <nav class="nav-tab-wrapper bokez-nav-tab-wrapper">
-            <a data-page="getting-started" href="#" class="nav-tab nav-tab-active">Getting Started</a>
-            <a data-page="general-settings" href="#" class="nav-tab">General Settings</a>
-            <a data-page="changes-log" href="#" class="nav-tab ">Changes Log</a>
-            <a href="http://bit.ly/bokezDemo" target="_blank" class="nav-tab ">Available Blocks</a>
-            <a href="http://bit.ly/2N85EhI" target="_blank" class="nav-tab ">Get More Plugins</a>
+            <a data-page="getting-started" href="#" class="nav-tab nav-tab-active"><?php _e('Getting Started', 'bokez'); ?></a>
+            <a data-page="general-settings" href="#" class="nav-tab"><?php _e('General Settings', 'bokez'); ?></a>
+            <a data-page="changes-log" href="#" class="nav-tab "><?php _e('Changes Log', 'bokez'); ?></a>
+            <a href="http://bit.ly/bokez_demo" target="_blank" class="nav-tab "><?php _e('Available Blocks', 'bokez'); ?></a>
+            <a href="http://bit.ly/2N85EhI" target="_blank" class="nav-tab "><?php _e('Get More Plugins', 'bokez'); ?></a>
         </nav>
     </div>
 
     <div class="bokez-page _open_" data-page="getting-started">
         <div class="bokez-page-content">
 
-            <h2>Getting Started</h2>
+            <h2><?php _e('Getting Started', 'bokez'); ?></h2>
 
             <p class="bokez-hero">
-                Bokez is an awesome collection of blocks which made for the new Gutenberg Editor by <a href="http://bit.ly/2GJw1tf">Delabon</a>.
-                With Bokez you get your essential blocks, customization options and more.
+                <?php _e('Bokez is an awesome collection of blocks which made for the new Gutenberg Editor by 
+                    <a href="http://bit.ly/2GJw1tf">Delabon</a>.
+                    With Bokez you get your essential blocks, customization options and more.', 'bokez'); ?>                
             </p>
 
             <ul class="bokez-tabs">
 
                 <li class="_open_">
-                    <a href="#">What is Gutenberg?</a>
+                    <a href="#"><?php _e('What is Gutenberg?', 'bokez'); ?></a>
                     <div class="bokez-tabs-content">
 
                         <p>
-                            Gutenberg is the new Wordpress Editor. it is built to simplify the creation of pages and posts by replacing shortcodes and custom HTML by Blocks.
+                            <?php _e('Gutenberg is the new Wordpress Editor. it is built to simplify the creation of pages 
+                            and posts by replacing shortcodes and custom HTML by Blocks.', 'bokez'); ?>
                         </p>
 
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/gutenberg.png" alt="">
@@ -38,10 +40,11 @@
                 </li>
                 
                 <li>
-                    <a href="#">What are Blocks?</a>
+                    <a href="#"><?php _e('What are Blocks?', 'bokez'); ?></a>
                     <div class="bokez-tabs-content">
                         <p>
-                            Anything you insert into the new editor from a simple Paragraph to a Video or Cover is a gutenberg block.
+                            <?php _e('Anything you insert into the new editor from a simple Paragraph to a Video or 
+                            Cover is a gutenberg block.', 'bokez'); ?>
                         </p>
 
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/blocks.png" alt="">
@@ -51,23 +54,26 @@
                 </li>
 
                 <li>
-                    <a href="#">How to Add Your First Block?</a>
+                    <a href="#"><?php _e('How to Add Your First Block?', 'bokez'); ?></a>
 
                     <div class="bokez-tabs-content">
 
                         <p>
-                            First, You need to create a new post ( or page ) by going to Posts > Add New.  
+                            <?php _e('First, You need to create a new post ( or page ) by going to Posts > Add New.', 'bokez'); ?>  
                         </p>
+
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/adding-new-post.png" alt="">
 
                         <br>
                         <p>
-                            Then, Click on the plus (+) icon and scroll down to "Bokez" section and select a block.
+                            <?php _e('Then, Click on the plus (+) icon and scroll down to "Bokez" section and select a block.', 'bokez'); ?>
                         </p>
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/adding-new-block.png" alt="">
 
                         <br>
-                        <p>In this example we have selected a blockquote block, so click on the block and start editing the text.</p>
+                        <p>
+                            <?php _e('In this example we have selected a blockquote block, so click on the block and start editing the text.', 'bokez'); ?>
+                        </p>
 
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/blockquote-block.png" alt="">
 
@@ -76,14 +82,14 @@
 
 
                 <li>
-                    <a href="#">Block Settings</a>
+                    <a href="#"><?php _e('Block Settings', 'bokez'); ?></a>
 
                     <div class="bokez-tabs-content">
                         <p>
-                            Let's say that we want to change our blockquote border color. 
-                            So in order to do that we need to click on the block and a sidebar panel will be shown. That sidebar panel is called The Inspector. 
+                            <?php _e('Let\'s say that we want to change our blockquote border color. 
+                            So in order to do that we need to click on the block and a sidebar panel will be shown. That sidebar panel is called The Inspector.', 'bokez'); ?>
                             <br>
-                            Within that inspector, you will find the block settings.
+                            <?php _e('Within that inspector, you will find the block settings.', 'bokez'); ?>
                         </p>
                         <img src="<?php echo BOKEZ_URL; ?>dist/panel/img/block-settings.png" alt="">
 
@@ -98,7 +104,7 @@
     <div class="bokez-page" data-page="general-settings">
         <div class="bokez-page-content">
 
-            <h2>General Settings</h2>
+            <h2><?php _e('General Settings', 'bokez'); ?></h2>
 
             <form method="POST">
 
