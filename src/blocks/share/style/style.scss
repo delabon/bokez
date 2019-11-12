@@ -18,14 +18,17 @@
 		flex: 0 0 48px;
 		width: 48px;
 		height: 48px;
-		position: relative;
-		text-decoration: none;
+		border-radius: 48px;
+		border: 0;
+		position: relative !important;
+		outline: 0 !important;
+		text-decoration: none !important;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 		background-color: #E8E8E8;
-		border: none;
-		outline: none;
 		color: #777;
 		fill: #777;
 		margin: 0 4px 8px;
+		padding: 0 !important;
 		transition: all 0.3s;
 
 		&:hover{

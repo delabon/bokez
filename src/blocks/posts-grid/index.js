@@ -212,7 +212,16 @@ registerBlockType( 'bokez/posts-grid', {
                 className = { 'bokez-block bokez-posts-grid' }
                 data-items = { columns }
             >
+                <div className="bokez-block bokez-notification bokez-notification-warning">
+                    { __('Install our new plugin Sogrid for much better grid blocks: 10 grid layouts, responsive control & ajax pagination.', 'bokez')}
+                    
+                    <br/>
+                    
+                    -> <a href={ BOKEZ_PARAMS.sogrid_install_url } target="_blank">{__('Download', 'bokez')}</a>
+                </div>
+                
                 { output }
+
             </div>
             
         ];

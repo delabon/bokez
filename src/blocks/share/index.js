@@ -1,6 +1,6 @@
 //  Import JS.
-import { Edit, justifyContent } from './edit'
-import { ShareIcon, FacebookIcon, TwitterIcon, GooglePlusIcon, RedditIcon, LinkedinIcon, EmailIcon } from '../../icons';
+import { Edit } from './edit'
+import { ShareIcon } from '../../icons';
 
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
@@ -11,7 +11,7 @@ registerBlockType( 'bokez/share', {
     
     description: __('Make your visitors share your content.', 'bokez'),
     
-    keywords: [__('share', 'bokez'), __('facebook', 'bokez'), __('twitter', 'bokez')],
+    keywords: [__('share', 'bokez'), __('facebook', 'bokez'), __('social', 'bokez')],
     
     icon: ShareIcon,
     

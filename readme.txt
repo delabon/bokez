@@ -1,9 +1,9 @@
-=== Bokez - Wordpress Blocks ===
+=== Bokez - Wordpress 5 Blocks ===
 Contributors: delabon
 Requires at least: 5.0
-Tested up to: 5.2
+Tested up to: 5.2.4
 Requires PHP: 5.4
-Stable tag: 2.1.3
+Stable tag: 2.2.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: posts grid, gutenberg, gutenberg blocks, gutenberg editor, wordpress 5 editor, gutenberg addon, wordpress 5, customizable blocks
@@ -96,6 +96,12 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 8. Accordion / FAQ Editor
 
 == Changelog ==
+
+= 2.2.0 =
+* Improved: Editor column block. 
+* Removed: Google+ icon from the share block.
+* Added: Box shadow to the share icons.
+* Added: Admin notice review.
 
 = 2.1.3 =
 * Updated: Made admin getting started guide translatable. 

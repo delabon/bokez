@@ -27,7 +27,7 @@ function bokez_init_block_column(){
     
             'marginBottom' => array(
                 'type' => 'number',
-                'default' => 0
+                'default' => 20
             ),
         ),
 		'render_callback' => 'bokez_render_block_column',

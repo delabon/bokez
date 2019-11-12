@@ -106,6 +106,10 @@ function bokez_gutenberg_cgb_editor_assets() {
 		true 
 	);
 
+	wp_localize_script( 'bokez_editor', 'BOKEZ_PARAMS', array(
+		'sogrid_install_url' => admin_url('plugin-install.php?s=sogrid&tab=search&type=term'),
+	));
+
 	// Styles.
 	wp_enqueue_style(
 		'bokez_editor', 
@@ -123,13 +127,13 @@ add_action( 'enqueue_block_editor_assets', 'bokez_gutenberg_cgb_editor_assets' )
  */
 function bokez_gutenberg_block_categories( $categories, $post ) {
 	return array_merge(
-        $categories,
-        array(
+		array(
             array(
                 'slug' => 'bokez',
                 'title' => 'Bokez',
             ),
-        )
+        ),
+        $categories
     );
 }
 add_filter( 'block_categories', 'bokez_gutenberg_block_categories', 10, 2 );

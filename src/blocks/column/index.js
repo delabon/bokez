@@ -19,7 +19,8 @@ const {
 
 const {
 	PanelBody,
-	RangeControl,
+    RangeControl,
+	Dashicon,    
 } = wp.components;
 
 export class BokezColumnBlock extends Component{
@@ -99,12 +100,17 @@ export class BokezColumnBlock extends Component{
                 <div 
                     className="bokez-column-inner" 
                 >
-                    <div style = {{ 'height' : '10px' }} ></div>
+                    
+                    <div className="bokez-column-settings-icon" >
+                        
+                        <Dashicon icon="admin-generic"/>
+
+                        <span>{__('Column Settings', 'bokez')}</span>
+
+                    </div>
 
 					<InnerBlocks templateLock={ false } />
                     
-                    <div style = {{ 'height' : '10px' }} ></div>
-
 				</div>
 			</div>
         ];

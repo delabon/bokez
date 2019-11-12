@@ -1,13 +1,13 @@
 import { bokez } from '../../global'
-import { ShareIcon, FacebookIcon, TwitterIcon, GooglePlusIcon, RedditIcon, LinkedinIcon, EmailIcon } from '../../icons';
+import { FacebookIcon, TwitterIcon, RedditIcon, LinkedinIcon, EmailIcon } from '../../icons';
 
 const { __ } = wp.i18n;
 const { Component } = wp.element;
 
 const {
-    PanelColorSettings,	
-    InspectorControls, 
-    AlignmentToolbar, 
+    PanelColorSettings,
+    InspectorControls,
+    AlignmentToolbar,
     BlockControls,
 } = wp.editor;
 
@@ -39,7 +39,6 @@ export class Edit extends Component{
     
         const { 
             show_facebook,
-            show_google,
             show_linkedin,
             show_reddit,
             show_twitter,
@@ -80,21 +79,6 @@ export class Edit extends Component{
                         </span>
     
                         <TwitterIcon fill = { iconColor } />
-                    </a>
-                )}
-    
-                { show_google && ( 
-                    <a 
-                        style = {{ 'background-color' : bgColor }}
-                        onClick = { (event) => { event.preventDefault(); event.stopPropagation(); } } 
-                        href = 'javascript:void(0)'
-                        className = { 'bokez-share-google' }                                 
-                    >
-                        <span className = 'bokez-share-tooltip' >
-                            { __('Google+', 'bokez') }
-                        </span>
-    
-                        <GooglePlusIcon fill = { iconColor } />
                     </a>
                 )}
     
@@ -172,12 +156,6 @@ export class Edit extends Component{
                         label = { __( 'Twitter' , 'bokez') }
                         checked = { show_twitter }
                         onChange = { ( value ) => setAttributes( { show_twitter: value } ) }
-                    />
-    
-                    <ToggleControl
-                        label = { __( 'Google+' , 'bokez') }
-                        checked = { show_google }
-                        onChange = { ( value ) => setAttributes( { show_google: value } ) }
                     />
     
                     <ToggleControl
