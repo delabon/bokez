@@ -13,6 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// Load helpers
+require_once __DIR__ . '/../src/helpers.php';
+
 // Load Blocks
 require_once __DIR__ . '/../src/blocks/blockquote/index.php';
 require_once __DIR__ . '/../src/blocks/button/index.php';

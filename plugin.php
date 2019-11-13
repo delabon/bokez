@@ -98,8 +98,8 @@ add_action( 'admin_notices', function() {
     if( get_transient('bokez_hide_notices') ) return;
     if( get_transient('bokez_hide_review_notice') ) return;
 
-    $url_hide_notices = add_query_arg( 'bokez_hide_notices', 'true', Sogrid_Helpers::url() );
-    $url_review_notice = add_query_arg( 'bokez_hide_review_notice', 'true', Sogrid_Helpers::url() );
+    $url_hide_notices = add_query_arg( 'bokez_hide_notices', 'true', bokez_current_url() );
+    $url_review_notice = add_query_arg( 'bokez_hide_review_notice', 'true', bokez_current_url() );
 
     ?>
         <div class="notice notice-warning">

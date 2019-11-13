@@ -100,6 +100,7 @@ Create awesome, elegant and perfect galleries easily in your wordpress editor.
 = 2.2.1 =
 * Wordpress 5.3+ Support 
 * Replaced deprecated api.
+* Fixed: Installation bug.
 
 = 2.2.0 =
 * Improved: Editor column block. 
