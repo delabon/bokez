@@ -7,7 +7,7 @@ const {
     PanelColorSettings,	
     InspectorControls, 
     RichText
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     SelectControl,

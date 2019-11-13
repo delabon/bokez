@@ -11,7 +11,7 @@ const {
     BlockControls,
     RichText,
     MediaUpload,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     Button,
@@ -380,7 +380,7 @@ export class Edit extends Component{
                         tagName = { 'span' }
                         keepPlaceholderOnFocus = { true }
                         onChange = { ( newValue ) => self.updateItem( newValue, index, 'job' ) }
-                        onSplit = { () => null }
+                        unstableOnSplit = { () => null }
                     />
 
                     <RichText        
@@ -391,7 +391,7 @@ export class Edit extends Component{
                         tagName = { 'p' }
                         keepPlaceholderOnFocus = { true }
                         onChange = { ( newValue ) => self.updateItem( newValue, index, 'message' ) }
-                        onSplit = { () => null }
+                        unstableOnSplit = { () => null }
                     />
 
                 </div>

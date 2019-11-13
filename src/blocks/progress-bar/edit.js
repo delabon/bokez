@@ -6,7 +6,7 @@ const { Component } = wp.element;
 const {
     PanelColorSettings,	
     InspectorControls, 
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     RangeControl,

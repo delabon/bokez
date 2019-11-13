@@ -10,7 +10,7 @@ const {
     URLInput,
     MediaUpload,
     BlockControls,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     Dashicon,    

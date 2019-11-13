@@ -10,7 +10,7 @@ const {
     BlockControls,
     RichText,
     MediaUpload,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     Button,

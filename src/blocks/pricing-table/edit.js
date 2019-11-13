@@ -290,7 +290,7 @@ export class Edit extends Component{
                             tagName = { 'h3' }
                             keepPlaceholderOnFocus = { true }
                             onChange = { ( newValue ) => setAttributes({ header: newValue }) }
-                            onSplit = { () => null }
+                            unstableOnSplit = { () => null }
                         />
         
                         <RichText        
@@ -313,7 +313,7 @@ export class Edit extends Component{
                             tagName = { 'span' }
                             keepPlaceholderOnFocus = { true }
                             onChange = { ( newValue ) => setAttributes({ price: newValue }) }
-                            onSplit = { () => null }
+                            unstableOnSplit = { () => null }
                         />
         
                         <RichText        
@@ -325,7 +325,7 @@ export class Edit extends Component{
                             tagName = { 'a' }
                             keepPlaceholderOnFocus = { true }
                             onChange = { ( newValue ) => setAttributes({ buttonName: newValue }) }
-                            onSplit = { () => null }
+                            unstableOnSplit = { () => null }
                             href = { buttonUrl }
                             onClick = { ( event ) => event.preventDefault() }
                         />

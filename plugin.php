@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Bokez - Page Builder ( Gutenberg Blocks )
+ * Plugin Name: Bokez - Wordpress 5 Blocks
  * Plugin URI: https://wordpress.org/plugins/bokez-awesome-gutenberg-blocks/
  * Description: A beautiful and customizable collection of gutenberg blocks, to build professional website with ease.
  * Author: Sabri Taieb
  * Author URI: https://delabon.com/
- * Version: 2.2.0
+ * Version: 2.2.1
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -15,7 +15,7 @@
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'BOKEZ_VERSION', '2.2.0' );
+define( 'BOKEZ_VERSION', '2.2.1' );
 define( 'BOKEZ_PATH', plugin_dir_path( __FILE__ ) );
 define( 'BOKEZ_URL', plugin_dir_url( __FILE__ ) );
 

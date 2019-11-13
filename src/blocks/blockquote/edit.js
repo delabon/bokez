@@ -9,7 +9,7 @@ const {
     AlignmentToolbar, 
     BlockControls,
     RichText,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     SelectControl,

@@ -10,7 +10,7 @@ const {
     AlignmentToolbar, 
     BlockControls,
     RichText,
-} = wp.editor;
+} = wp.blockEditor;
 
 export class Edit extends Component{
 
@@ -128,7 +128,7 @@ export class Edit extends Component{
                         tagName = { 'span' }
                         keepPlaceholderOnFocus = { true }
                         onChange = { ( newValue ) => self.updateItem( newValue, index, 'header' ) }
-                        onSplit = { () => null }
+                        unstableOnSplit = { () => null }
                     />
     
                     <RichText        
@@ -140,7 +140,7 @@ export class Edit extends Component{
                         tagName = { 'p' }
                         keepPlaceholderOnFocus = { true }
                         onChange = { ( newValue ) => self.updateItem( newValue, index, 'body' ) }
-                        onSplit = { () => null }
+                        unstableOnSplit = { () => null }
                     />
     
                 </div>

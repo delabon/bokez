@@ -10,7 +10,7 @@ const {
     BlockControls,
     URLInput,   
     RichText,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     SelectControl,

@@ -8,7 +8,7 @@ const { registerBlockType } = wp.blocks;
 const {
     PanelColorSettings,
     InspectorControls, 
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     SelectControl,

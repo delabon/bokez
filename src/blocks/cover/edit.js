@@ -5,13 +5,13 @@ const { Component } = wp.element;
 
 const {
     PanelColorSettings,
-    InspectorControls, 
     AlignmentToolbar,
     BlockControls,
     MediaUpload,
     RichText,
+    InspectorControls, 
     URLInput,   
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     ToggleControl,

@@ -15,7 +15,7 @@ const { registerBlockType } = wp.blocks;
 const {
     InnerBlocks, 
 	InspectorControls,
-} = wp.editor;
+} = wp.blockEditor;
 
 const {
 	PanelBody,

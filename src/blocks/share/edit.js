@@ -9,7 +9,7 @@ const {
     InspectorControls,
     AlignmentToolbar,
     BlockControls,
-} = wp.editor;
+} = wp.blockEditor;
 
 const { 
     ToggleControl,

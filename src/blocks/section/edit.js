@@ -24,7 +24,7 @@ const { Fragment, Component } = wp.element;
 const {
     InnerBlocks, 
 	InspectorControls,
-} = wp.editor;
+} = wp.blockEditor;
 
 const {
 	Button,
